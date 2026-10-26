@@ -1,0 +1,122 @@
+{
+  "vault_name": "IELTS Band 8.5 - 9.0 Lexical Vault",
+  "categories": [
+    {
+      "category_id": "money-finance",
+      "category_title": "Money, Spending & Personal Finance",
+      "description": "Essential collocations and idioms for speaking & writing tasks about spending, saving and economy.",
+      "items": [
+        {
+          "phrase": "Live within one's means",
+          "meaning_az": "Gəlirinə uyğun yaşamaq (borca girmədən)",
+          "cefr": "C1/C2",
+          "example": "Being a student taught me how crucial it is to live within my means and avoid unnecessary debt."
+        },
+        {
+          "phrase": "Impulse buying",
+          "meaning_az": "Plansız, anidən verilən qərarla alış-veriş",
+          "cefr": "C1",
+          "example": "Supermarkets often place sweets near the counter to encourage impulse buying among shoppers."
+        },
+        {
+          "phrase": "Financial safety net",
+          "meaning_az": "Maliyyə təhlükəsizlik zəmanəti (ehtiyat yastığı)",
+          "cefr": "C2",
+          "example": "Setting aside an emergency fund provides a reliable financial safety net during tough times."
+        },
+        {
+          "phrase": "Buyer's remorse",
+          "meaning_az": "Alışdan dərhal sonra yaranan peşmanlıq",
+          "cefr": "C1",
+          "example": "I felt instant buyer's remorse after splurging on an expensive smartwatch I barely use."
+        },
+        {
+          "phrase": "Save for a rainy day",
+          "meaning_az": "Gələcək və ya çətin gün üçün pul yığmaq (idiom)",
+          "cefr": "B2/C1",
+          "example": "My parents always advised me to save for a rainy day rather than spending every penny."
+        },
+        {
+          "phrase": "Prudent financial management",
+          "meaning_az": "Ağıllı və ehtiyatlı maliyyə idarəçiliyi",
+          "cefr": "C2",
+          "example": "Prudent financial management is essential for young professionals navigating high living costs."
+        }
+      ]
+    },
+    {
+      "category_id": "parks-nature",
+      "category_title": "Gardens, Parks & Urban Environment",
+      "description": "Descriptive adjectives and collocations for outdoor spaces, landscapes and botanical sanctuaries.",
+      "items": [
+        {
+          "phrase": "Tranquil green oasis",
+          "meaning_az": "Sakit və dinc yaşıl vaha / istirahət məkanı",
+          "cefr": "C2",
+          "example": "The botanical garden is a tranquil green oasis right in the heart of our bustling city."
+        },
+        {
+          "phrase": "Hustle and bustle",
+          "meaning_az": "Şəhər səs-küyü, tələskənliyi və basabası (idiom)",
+          "cefr": "C1",
+          "example": "People visit national parks primarily to escape the daily hustle and bustle of modern life."
+        },
+        {
+          "phrase": "Sprawling acreage",
+          "meaning_az": "Geniş əraziyə yayılan sahə",
+          "cefr": "C2",
+          "example": "The estate boasts a sprawling acreage with century-old trees and winding pathways."
+        },
+        {
+          "phrase": "Exotic flora and fauna",
+          "meaning_az": "Qeyri-adi/nadir bitki və heyvanat aləmi",
+          "cefr": "C1",
+          "example": "The temperature-controlled conservatory shelters hundreds of exotic flora and fauna species."
+        },
+        {
+          "phrase": "Rejuvenate one's mind",
+          "meaning_az": "Zehni və əhvalı təravətləndirmək/gümrahlaşdırmaq",
+          "cefr": "C1",
+          "example": "Taking a brisk morning stroll through lush pine woods completely rejuvenates my mind."
+        },
+        {
+          "phrase": "Leave a lasting impression",
+          "meaning_az": "Dərin və unudulmaz təəssürat buraxmaq",
+          "cefr": "C1",
+          "example": "The serene architecture of the Japanese pavilion left a lasting impression on all visitors."
+        }
+      ]
+    },
+    {
+      "category_id": "academic-discourse",
+      "category_title": "High-Band Discourse Markers & Analytical Connectors",
+      "description": "Connectors that boost Coherence & Cohesion and Lexical Resource in Speaking Part 3 and Writing Task 2.",
+      "items": [
+        {
+          "phrase": "Without a shadow of a doubt",
+          "meaning_az": "Zərrə qədər şübhə olmadan / birmənalı olaraq",
+          "cefr": "C1/C2",
+          "example": "Without a shadow of a doubt, investing in green technology yields long-term economic gains."
+        },
+        {
+          "phrase": "It is widely acknowledged that...",
+          "meaning_az": "Geniş şəkildə qəbul edilmişdir ki...",
+          "cefr": "C1",
+          "example": "It is widely acknowledged that early childhood immersion shapes cognitive flexibility."
+        },
+        {
+          "phrase": "In stark contrast to...",
+          "meaning_az": "...-nın tam əksinə olaraq",
+          "cefr": "C2",
+          "example": "In stark contrast to rural tranquility, metropolitan living induces chronic cognitive overload."
+        },
+        {
+          "phrase": "To strike a balance between X and Y",
+          "meaning_az": "X ilə Y arasında tarazlıq yaratmaq",
+          "cefr": "C1",
+          "example": "Urban planners must strike a delicate balance between commercial expansion and ecology."
+        }
+      ]
+    }
+  ]
+}

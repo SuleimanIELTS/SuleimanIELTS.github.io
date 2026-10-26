@@ -1,0 +1,36 @@
+{
+  "task1_blueprints": [
+    {
+      "type": "Dynamic Chart (Line / Bar over time)",
+      "introduction_template": "The line graph illustrates changes in [Topic] across [Country/Group] over a [X-year] period between [Year 1] and [Year 2].",
+      "overview_template": "Overall, what stands out from the graph is that [Trend 1 experienced significant upward trajectory], whereas [Trend 2 witnessed a marked decline]. Furthermore, [Category X] consistently maintained the highest figures throughout the timeframe.",
+      "body_paragraph_tips": "Group data logically by trends (upward vs downward), avoid listing every single year, prioritize highs, lows, plateaus, and points of intersection."
+    },
+    {
+      "type": "Static Comparison (Pie / Table at one point in time)",
+      "introduction_template": "The pie charts compare the proportion of [Subject] allocated to [Categories] in [Year].",
+      "overview_template": "Overall, it is immediately evident that [Category A] accounted for the vast majority of the total, while [Category B] constituted the least significant proportion.",
+      "body_paragraph_tips": "Focus on proportions, ranks, ratios ('twice as much as', 'threefold', 'represented a negligible share')."
+    }
+  ],
+  "task2_blueprints": [
+    {
+      "type": "Opinion / Agree or Disagree",
+      "structure": [
+        "Paragraph 1: Paraphrase Prompt + Clear Thesis Statement (e.g. 'I wholeheartedly concur with this viewpoint because...')",
+        "Paragraph 2: First Strong Supporting Argument (Topic Sentence + Explanation + Concrete Example + Concluding link)",
+        "Paragraph 3: Second Supporting Argument or Counter-Perspective refutation",
+        "Paragraph 4: Conclusion (Restate position in different words + Forward-looking synthesis)"
+      ]
+    },
+    {
+      "type": "Discuss Both Views and Give Your Opinion",
+      "structure": [
+        "Paragraph 1: Introduce debate + State which side you lean towards",
+        "Paragraph 2: Examine View A (Why proponents argue this + supporting merit)",
+        "Paragraph 3: Examine View B (Why opponents favor this + your primary rationale)",
+        "Paragraph 4: Synthesis conclusion firmly establishing your reasoned verdict"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "target_band_score": 8.0,
+  "component_targets": {
+    "speaking": 8.5,
+    "listening": 8.5,
+    "reading": 8.5,
+    "writing": 7.5
+  },
+  "daily_routine": [
+    {
+      "time_block": "Morning (30 mins)",
+      "activity": "Engnovate Speaking Simulator (1 Part 1 set + 1 Part 2 Cue Card recorded)",
+      "goal": "Improve fluency, eliminate hesitations, use 3-4 target collocations"
+    },
+    {
+      "time_block": "Afternoon (45 mins)",
+      "activity": "Cambridge Academic Listening or Reading Section",
+      "goal": "Analyze error patterns, record unknown academic vocabulary in Lexical Vault"
+    },
+    {
+      "time_block": "Evening (45 mins)",
+      "activity": "Writing Task 1 or Task 2 Blueprint Analysis & Brainstorming",
+      "goal": "Write 1 cohesive overview or body paragraph with strong academic cohesion"
+    }
+  ],
+  "milestones": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Cambridge 21 & 20 Speaking fluency & timing mastery"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Complex grammar structures (inversion, cleft sentences, conditionals)"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Full mock tests under strict exam conditions"
+    }
+  ]
+}

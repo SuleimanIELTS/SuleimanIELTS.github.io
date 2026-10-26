@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="az" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Suleiman IELTS — Minimalist, Distraction-Free IELTS Academic Preparation Platform & Engnovate Companion" />
+  <title>Suleiman IELTS — Academic Practice & Engnovate Companion</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%200%20100%20100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>">
+</head>
+<body>
+
+  <!-- Top Sticky Glass Header -->
+  <header class="site-header">
+    <div class="app-container">
+      <div class="header-inner">
+        <div class="brand-wrapper">
+          <span class="brand-badge">IELTS 8.5</span>
+          <div>
+            <h1 class="brand-title">Suleiman IELTS</h1>
+            <span class="brand-subtitle">Distraction-Free Academic Study Platform</span>
+          </div>
+        </div>
+
+        <div class="header-actions">
+          <span class="target-badge">🎯 Band 8.0+ Target</span>
+          
+          <button id="sidecar-toggle-btn" class="action-btn" title="Toggle Engnovate Companion Sidecar Mode">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="15" y1="3" x2="15" y2="21"></line>
+            </svg>
+            <span>Companion Mode</span>
+          </button>
+
+          <button id="theme-toggle-btn" class="action-btn theme-toggle-btn" title="Toggle Light / Dark Mode">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <nav class="nav-tabs">
+        <button class="tab-btn active" data-tab="view-dashboard">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="3" width="7" height="7"></rect>
+            <rect x="14" y="3" width="7" height="7"></rect>
+            <rect x="14" y="14" width="7" height="7"></rect>
+            <rect x="3" y="14" width="7" height="7"></rect>
+          </svg>
+          <span>Dashboard</span>
+        </button>
+
+        <button class="tab-btn" data-tab="view-speaking">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+            <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+            <line x1="12" y1="19" x2="12" y2="23"></line>
+            <line x1="8" y1="23" x2="16" y2="23"></line>
+          </svg>
+          <span>Speaking Suite</span>
+        </button>
+
+        <button class="tab-btn" data-tab="view-tests">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+          </svg>
+          <span>Cambridge Tests</span>
+        </button>
+
+        <button class="tab-btn" data-tab="view-vault">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+          </svg>
+          <span>Lexical Vault C1/C2</span>
+        </button>
+
+        <button class="tab-btn" data-tab="view-writing">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 20h9"></path>
+            <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+          </svg>
+          <span>Writing Blueprints</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Application Body -->
+  <main class="app-container">
+
+    <!-- VIEW 1: DASHBOARD -->
+    <section id="view-dashboard" class="view-section active">
+      <div class="hero-banner">
+        <div class="hero-text">
+          <h1>İmtahan Hazırlığı & Engnovate Bələdçisi</h1>
+          <p>
+            Qarışıqlıq olmadan, təmiz və fokuslanmış mühitdə Cambridge 15–21 Academic testlərini işləyin,
+            model cavabları və C1/C2 lüğət bazasını paralel mənimsəyin.
+          </p>
+        </div>
+        <div class="hero-cta">
+          <a href="https://engnovate.com/ielts-speaking-tests/cambridge-ielts-21-academic-speaking-test-3/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+            <span>🔥 Cambridge 21 Test 3 Engnovate-də Aç</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Stats Grid -->
+      <div id="dashboard-stats" class="grid-3" style="margin-bottom: 2rem;">
+        <!-- Injected via JavaScript -->
+      </div>
+
+      <div class="grid-2">
+        <!-- Daily Routine Card -->
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">📅 Gündəlik Hazırlıq Planı</span>
+            <span class="status-badge status-ready">Fokus Rejimi</span>
+          </div>
+          <div id="daily-routine-list">
+            <!-- Injected via JavaScript -->
+          </div>
+        </div>
+
+        <!-- Strategy & Engnovate Tips Card -->
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">💡 Engnovate-də Rahat İşləmək Qaydası</span>
+            <span class="status-badge status-in-progress">Tövsiyə</span>
+          </div>
+          <ul style="padding-left: 1.25rem; font-size: 0.9rem; color: var(--text-secondary); display: flex; flex-direction: column; gap: 0.75rem;">
+            <li>
+              <strong>Qarışıqlıq yoxdur:</strong> Engnovate-dəki reklam və ya abunə tələbləri olmadan sualları buradan oxuyun və timerlə hazırlaşın.
+            </li>
+            <li>
+              <strong>Hesab Dəyişmə & Keşlənmə:</strong> Saytda hesab dəyişəndə və ya limit bitəndə <em>Chrome Incognito (Gizli Pəncərə - Cmd+Shift+N)</em> rejimindən istifadə edin; heç bir keş ilişib qalmayacaq.
+            </li>
+            <li>
+              <strong>Companion Mode:</strong> Yuxarı sağdakı "Companion Mode" düyməsinə basaraq bu səhifəni sağ tərəfdə dar pəncərə kimi yerləşdirin və Engnovate ilə yanaşı işləyin.
+            </li>
+            <li>
+              <strong>Band 8.5 Model Cavablar:</strong> Hər bir sual üçün akademik cavab və Azərbaycan dilində tərcümə hazırdır.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 2: SPEAKING PRACTICE SUITE -->
+    <section id="view-speaking" class="view-section">
+      <div class="speaking-header-box">
+        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <span class="module-badge" style="margin-bottom: 0.35rem; display: inline-block;">Speaking Active Test</span>
+            <h2 style="font-size: 1.35rem; font-weight: 800;">Cambridge 21 Academic Speaking Test 3</h2>
+          </div>
+          <a href="https://engnovate.com/ielts-speaking-tests/cambridge-ielts-21-academic-speaking-test-3/" target="_blank" rel="noopener noreferrer" class="btn-primary" style="font-size: 0.85rem; padding: 0.5rem 1rem;">
+            <span>Engnovate-də Aç</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+          </a>
+        </div>
+
+        <div class="speaking-tabs">
+          <button class="spk-part-btn active" data-spk-part="1">Part 1: Questions 1–4 (Money & Spending)</button>
+          <button class="spk-part-btn" data-spk-part="2">Part 2: Cue Card (Gardens & Parks)</button>
+          <button class="spk-part-btn" data-spk-part="3">Part 3: Deep Discussion (Public Spaces)</button>
+        </div>
+      </div>
+
+      <!-- Speaking Part 1 Content -->
+      <div id="spk-part-1" class="speaking-part-view" style="display: block; margin-top: 1.5rem;">
+        <div id="spk-part-1-content">
+          <!-- Injected via JavaScript -->
+        </div>
+      </div>
+
+      <!-- Speaking Part 2 Content -->
+      <div id="spk-part-2" class="speaking-part-view" style="display: none; margin-top: 1.5rem;">
+        <!-- Integrated Timers & In-Browser Audio Recorder -->
+        <div class="timer-widget">
+          <div class="timer-box">
+            <span class="timer-label">⏱️ Part 2 Hazırlıq Vaxtı (1 dəq)</span>
+            <span id="prep-timer-display" class="timer-display">01:00</span>
+            <div class="timer-controls">
+              <button id="btn-prep-start" class="timer-btn btn-active">Başla</button>
+              <button id="btn-prep-pause" class="timer-btn">Fasilə</button>
+              <button id="btn-prep-reset" class="timer-btn">Sıfırla</button>
+            </div>
+          </div>
+
+          <div class="timer-box">
+            <span class="timer-label">🎙️ Danışıq Vaxtı (2 dəq)</span>
+            <span id="speech-timer-display" class="timer-display">02:00</span>
+            <div class="timer-controls">
+              <button id="btn-speech-start" class="timer-btn btn-active">Başla</button>
+              <button id="btn-speech-pause" class="timer-btn">Fasilə</button>
+              <button id="btn-speech-reset" class="timer-btn">Sıfırla</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Audio Recorder Bar -->
+        <div class="recorder-widget">
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <button id="record-btn" class="rec-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <circle cx="12" cy="12" r="7"></circle>
+              </svg>
+              <span>Record Speech</span>
+            </button>
+            <span id="rec-elapsed-timer" style="font-family: var(--font-mono); font-weight: 700; font-size: 1.1rem;">00:00</span>
+          </div>
+
+          <div id="audio-preview-container" class="audio-preview">
+            <!-- Audio player injected here when recording ends -->
+          </div>
+        </div>
+
+        <div id="spk-part-2-content" style="margin-top: 1.5rem;">
+          <!-- Cue card and model answer injected via JavaScript -->
+        </div>
+      </div>
+
+      <!-- Speaking Part 3 Content -->
+      <div id="spk-part-3" class="speaking-part-view" style="display: none; margin-top: 1.5rem;">
+        <div id="spk-part-3-content">
+          <!-- Injected via JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 3: CAMBRIDGE TESTS DIRECTORY -->
+    <section id="view-tests" class="view-section">
+      <div style="margin-bottom: 1.5rem;">
+        <h2 style="font-size: 1.35rem; font-weight: 800;">Cambridge Academic Practice Directory</h2>
+        <p style="color: var(--text-secondary); font-size: 0.9rem;">
+          Cambridge 15-dən 21-ə qədər bütün sınaq testləri və Engnovate üzərində birbaşa keçidlər.
+        </p>
+      </div>
+
+      <div id="tests-grid" class="grid-3">
+        <!-- Injected via JavaScript -->
+      </div>
+    </section>
+
+    <!-- VIEW 4: LEXICAL VAULT C1/C2 -->
+    <section id="view-vault" class="view-section">
+      <div style="margin-bottom: 1.5rem;">
+        <h2 style="font-size: 1.35rem; font-weight: 800;">Lexical Resource Vault (C1 / C2)</h2>
+        <p style="color: var(--text-secondary); font-size: 0.9rem;">
+          İmtahanlarda Band 8.0–9.0 almaq üçün vacib kollokasiyalar, akademik ifadələr və onların Azərbaycan dilində izahları.
+        </p>
+      </div>
+
+      <div class="vault-controls">
+        <input type="text" id="vocab-search" class="search-input" placeholder="Axtarış: söz, ifadə və ya Azərbaycan dilində məna..." />
+        <select id="vocab-category-filter" class="filter-select">
+          <option value="all">Bütün Kateqoriyalar</option>
+          <option value="collocations">C1/C2 Collocations</option>
+          <option value="idioms">Idiomatic Expressions</option>
+          <option value="topic_gardens">Parks & Green Spaces</option>
+          <option value="topic_finance">Finance & Spending Habits</option>
+        </select>
+      </div>
+
+      <div id="vault-list">
+        <!-- Injected via JavaScript -->
+      </div>
+    </section>
+
+    <!-- VIEW 5: WRITING BLUEPRINTS -->
+    <section id="view-writing" class="view-section">
+      <div style="margin-bottom: 1.5rem;">
+        <h2 style="font-size: 1.35rem; font-weight: 800;">Academic Writing Blueprints & Cohesive Devices</h2>
+        <p style="color: var(--text-secondary); font-size: 0.9rem;">
+          Task 1 və Task 2 üçün Band 8.5 şablonları, paraqraf strukturları və bağlayıcı ifadələr.
+        </p>
+      </div>
+
+      <div id="writing-blueprints-container">
+        <!-- Injected via JavaScript -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Clean Footer -->
+  <footer>
+    <div class="app-container">
+      <p style="margin-bottom: 0.35rem;">
+        <strong>Suleiman IELTS</strong> • Distraction-Free Academic Companion for Engnovate & Cambridge IELTS
+      </p>
+      <p style="font-size: 0.75rem; color: var(--text-muted);">
+        Frontend repo: <a href="https://github.com/SuleimanIELTS/SuleimanIELTS.github.io" target="_blank" rel="noopener noreferrer">SuleimanIELTS.github.io</a> • 
+        Data repo: <a href="https://github.com/SuleimanIELTS/SuleimanIELTS" target="_blank" rel="noopener noreferrer">SuleimanIELTS</a> (Private)
+      </p>
+    </div>
+  </footer>
+
+  <!-- Application Scripts -->
+  <script src="js/speaking_timer.js"></script>
+  <script src="js/recorder.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

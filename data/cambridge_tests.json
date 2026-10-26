@@ -1,0 +1,250 @@
+{
+  "last_updated": "2026-10-26",
+  "total_books": 7,
+  "series": "Cambridge IELTS Academic Series (15 - 21)",
+  "platform_companion": "Engnovate",
+  "tests": [
+    {
+      "id": "cambridge-21-speaking-3",
+      "book": "Cambridge 21",
+      "module": "Speaking",
+      "test_number": 3,
+      "title": "Cambridge IELTS 21 Academic Speaking Test 3",
+      "engnovate_url": "https://engnovate.com/ielts-speaking-tests/cambridge-ielts-21-academic-speaking-test-3/",
+      "difficulty": "Academic Standard",
+      "status": "In Progress",
+      "parts": {
+        "part_1": {
+          "topic": "Money, Shopping & Spending",
+          "questions": [
+            {
+              "id": "c21-s3-p1-q1",
+              "number": 1,
+              "question": "When you go shopping, do you usually pay for things by cash or by card?",
+              "model_answer_band_8": "To be honest, I almost always pay by card or using my phone. It’s just so much more convenient and faster, especially with contactless payment and Apple Pay. Plus, it really helps me keep track of my daily expenses through my mobile banking app, so I rarely carry loose cash with me these days.",
+              "translation_az": "Düzünü desəm, demək olar ki, həmişə kartla və ya telefonla ödəyirəm. Xüsusilə təmassız ödəniş və Apple Pay ilə bu, daha rahat və sürətlidir. Üstəlik, mobil bank tətbiqi vasitəsilə gündəlik xərclərimi izləməyə çox kömək edir, ona görə də bu günlərdə üzərimdə nadir hallarda nağd pul gəzdirirəm.",
+              "key_vocab": [
+                {
+                  "word": "Contactless payment",
+                  "translation": "Təmassız ödəniş"
+                },
+                {
+                  "word": "Keep track of expenses",
+                  "translation": "Xərcləri izləmək"
+                },
+                {
+                  "word": "Loose cash",
+                  "translation": "Xırda nağd pul"
+                }
+              ]
+            },
+            {
+              "id": "c21-s3-p1-q2",
+              "number": 2,
+              "question": "Are you generally careful about how much money you spend?",
+              "model_answer_band_8": "Yes, I would say I'm quite mindful of my spending habits. I always try to live within my means and set aside a portion of my income for savings or unexpected expenses. In fact, I usually make a monthly budget and track my expenses on my phone to avoid any impulse buying.",
+              "translation_az": "Bəli, deyərdim ki, xərcləmə vərdişlərimə qarşı kifayət qədər diqqətliyəm. Həmişə imkanım daxilində yaşamağa və gəlirimin bir hissəsini qənaət və ya gözlənilməz xərclər üçün kənara qoymağa çalışıram. Əslində, impulsiv (plansız) alış-verişlərdən qaçmaq üçün adətən aylıq büdcə tərtib edir və xərclərimi telefonumda izləyirəm.",
+              "key_vocab": [
+                {
+                  "word": "Mindful of spending",
+                  "translation": "Xərcləməyə qarşı diqqətli"
+                },
+                {
+                  "word": "Live within one's means",
+                  "translation": "Gəlirinə uyğun yaşamaq"
+                },
+                {
+                  "word": "Impulse buying",
+                  "translation": "Plansız/anidən alış-veriş"
+                }
+              ]
+            },
+            {
+              "id": "c21-s3-p1-q3",
+              "number": 3,
+              "question": "Have you ever spent money on something you didn't need?",
+              "model_answer_band_8": "Yes, absolutely. Like most people, I’ve fallen into the trap of impulse buying a few times. I remember purchasing a rather expensive jacket on sale a while ago just because it had a huge discount, but I ended up wearing it only once or twice. It’s basically just collecting dust in my wardrobe now, which was definitely a waste of money.",
+              "translation_az": "Bəli, mütləq. Çox insan kimi, mən də bir neçə dəfə impulsiv (plansız) alış-veriş tələsinə düşmüşəm. Xatırlayıram ki, bir müddət əvvəl sırf böyük endirimdə olduğu üçün kifayət qədər bahalı bir gödəkçə almışdım, amma sonda onu cəmi bir-iki dəfə geyindim. İndi qarderobumda sadəcə toz basır ki, bu da birmənalı olaraq pul israfı idi.",
+              "key_vocab": [
+                {
+                  "word": "Fallen into the trap of...",
+                  "translation": "...tələsinə düşmək"
+                },
+                {
+                  "word": "Collecting dust",
+                  "translation": "İstifadəsiz qalıb toz basmaq"
+                },
+                {
+                  "word": "Buyer’s remorse",
+                  "translation": "Aldıqdan sonrakı peşmanlıq"
+                }
+              ]
+            },
+            {
+              "id": "c21-s3-p1-q4",
+              "number": 4,
+              "question": "How important is it to you to save money for the future?",
+              "model_answer_band_8": "I believe it's absolutely crucial. Having a financial safety net gives me immense peace of mind because you never know what unforeseen circumstances or emergencies might arise. It also allows me to be independent and prepared for any sudden changes without having to rely on others.",
+              "translation_az": "Düşünürəm ki, bu, tamamilə həyati əhəmiyyət kəsb edir. Maliyyə təhlükəsizliyi yastığının olması mənə böyük daxili rahatlıq verir, çünki hansı gözlənilməz vəziyyətlərin və ya fövqəladə halların yarana biləcəyini heç vaxt bilmək olmur. Bu, həmçinin başqalarından asılı olmadan müstəqil olmağa və qəfil dəyişikliklərə hazır olmağa imkan verir.",
+              "key_vocab": [
+                {
+                  "word": "Financial safety net",
+                  "translation": "Maliyyə təhlükəsizlik zəmanəti"
+                },
+                {
+                  "word": "Peace of mind",
+                  "translation": "Daxili rahatlıq / arxayınlıq"
+                },
+                {
+                  "word": "Unforeseen circumstances",
+                  "translation": "Gözlənilməz hallar"
+                }
+              ]
+            }
+          ]
+        },
+        "part_2": {
+          "topic": "An interesting garden or park",
+          "cue_card": {
+            "title": "Describe an interesting garden or park you have seen.",
+            "bullet_points": [
+              "where this garden or park is",
+              "how big it is",
+              "what you saw in this garden/park",
+              "and explain why you think this garden/park is interesting."
+            ],
+            "model_speech_band_8": "I’d like to talk about a fascinating place I visited recently, which is the Central Botanical Garden located right on the outskirts of our city. As for how big it is, the park is truly sprawling, spanning over several dozen hectares. Because of its vast size, it never feels overcrowded, and you could easily spend an entire afternoon wandering around without covering the whole area. When it comes to what I saw there, it was an absolute paradise for nature lovers. The garden is divided into several themed sections. There are vibrant flowerbeds, towering century-old trees, and well-maintained greenhouses housing rare, exotic flora from different climate zones. One particular highlight for me was a charming traditional Japanese garden corner, complete with wooden bridges, delicate cherry blossoms, and a tranquil pond filled with colorful koi fish. Alongside that, there were scenic winding cobblestone pathways and plenty of shaded benches where people were reading or simply enjoying the fresh air. What makes this park exceptionally interesting to me is the sheer contrast it offers. Stepping into this garden feels like entering a tranquil green oasis that provides an instant escape from the hustle and bustle of the city. It isn't just a regular recreational park with cafes and loud music; instead, it combines botanical education, conservation, and pure serenity. Walking among diverse plant species while listening to birds chirping completely rejuvenated my mind, which is why it left such a lasting impression on me.",
+            "translation_az": "Son vaxtlar ziyarət etdiyim valehedici bir məkandan — şəhərimizin kənarında yerləşən Mərkəzi Nəbatat Bağında danışmaq istərdim. Nə qədər böyük olmasına gəldikdə, park həqiqətən çox genişdir, bir neçə on hektar ərazini əhatə edir. Nəhəng ölçüsü sayəsində heç vaxt həddindən artıq izdihamlı hiss olunmur və bütün ərazini gəzib bitirmədən bütün bir günortanı asanlıqla orada gəzintiyə sərf edə bilərsiniz. Orada nə gördüyümə gəldikdə isə, bura təbiətsevərlər üçün əsl cənnət idi. Bağ bir neçə tematik bölməyə ayrılıb. Burada əlvan gül ləkləri, uca əsrlik ağaclar və müxtəlif iqlim zonalarından gətirilmiş nadir, ekzotik bitkilərin saxlandığı səliqəli istixanalar var. Mənim üçün ən diqqətçəkən məqamlardan biri taxta körpüləri, zərif albalı çiçəkləri və rəngarəng koi balıqları ilə dolu sakit gölməçəsi olan ənənəvi Yapon bağı guşəsi oldu. Bununla yanaşı, mənzərəli dolanbac daş cığırlar və insanların kitab oxuduğu və ya sadəcə təmiz havadan zövq aldığı çoxlu kölgəlik skamyalar var idi. Bu parkı mənim üçün son dərəcə maraqlı edən şey onun təqdim etdiyi böyük təzaddır (kontrastdır). Bu bağa daxil olmaq şəhərin səs-küyündən dərhal xilas olmağı təmin edən sakit yaşıl vahaya addımlamaq kimidir. Bu, sadəcə kafeləri və yüksək musiqisi olan adi bir istirahət parkı deyil; əksinə, botanika maarifləndirməsini, qorunmanı və təmiz sakitliyi özündə birləşdirir. Quşların cəh-cəhini dinləyərək müxtəlif bitki növləri arasında gəzmək fikrimi tamamilə təravətləndirdi, buna görə də məndə bu qədər dərin və unudulmaz təəssürat buraxdı.",
+            "key_vocab": [
+              {
+                "word": "Sprawling",
+                "translation": "Geniş əraziyə yayılan / nəhəng"
+              },
+              {
+                "word": "Tranquil green oasis",
+                "translation": "Sakit yaşıl vaha"
+              },
+              {
+                "word": "Hustle and bustle",
+                "translation": "Şəhər səs-küyü və basabası"
+              },
+              {
+                "word": "Rejuvenate one's mind",
+                "translation": "Əhvalı/zehni təravətləndirmək"
+              },
+              {
+                "word": "Leave a lasting impression",
+                "translation": "Qalıcı təəssürat buraxmaq"
+              }
+            ]
+          }
+        },
+        "part_3": {
+          "topic": "Public Parks, Urban Greenery & Quality of Life",
+          "questions": [
+            {
+              "number": 1,
+              "question": "Do you think cities should have more public parks?",
+              "model_answer_band_8": "Without a doubt. With rapid urbanization and high-rise developments, green spaces have become indispensable. Not only do public parks improve urban air quality and reduce temperature, but they also serve as vital social hubs where residents can unwind, exercise, and socialize. In essence, they are essential for both physical well-being and mental health.",
+              "translation_az": "Şübhəsiz. Sürətli urbanizasiya və göydələnlərin artması ilə yaşıl zonalar əvəzolunmaz hala gəlib. İctimai parklar təkcə şəhərin hava keyfiyyətini yaxşılaşdırmır və temperaturu azaltmır, həm də sakinlərin dincələ, idman edə və ünsiyyət qura biləcəyi mühüm sosial mərkəz rolunu oynayır. Mahiyyət etibarilə onlar həm fiziki, həm də zehni sağlamlıq üçün vacibdir."
+            },
+            {
+              "number": 2,
+              "question": "What facilities should a good public park provide for visitors?",
+              "model_answer_band_8": "In my view, a well-designed park should cater to people of all demographics. It ought to feature well-paved running tracks, safe play zones for children, clean public restrooms, and ample seating beneath natural shade. Furthermore, introducing open-air workout equipment and designated pet-friendly areas can significantly enhance the park's utility.",
+              "translation_az": "Fikrimcə, yaxşı dizayn edilmiş park bütün yaş qruplarına xidmət etməlidir. Burada yaxşı döşənmiş qaçış yolları, uşaqlar üçün təhlükəsiz oyun zonaları, təmiz ictimai sanitar qovşaqlar və təbii kölgəlikdə kifayət qədər skamyalar olmalıdır. Bundan əlavə, açıq hava idman avadanlıqlarının və ev heyvanları üçün xüsusi sahələrin yaradılması parkın faydalılığını əhəmiyyətli dərəcədə artıra bilər."
+            },
+            {
+              "number": 3,
+              "question": "Why is it important for children to spend time in nature rather than indoors?",
+              "model_answer_band_8": "Spending time outdoors fosters both physical and cognitive development in youngsters. Being in a natural setting encourages active physical play, which mitigates the risk of childhood obesity and nearsightedness. Moreover, interacting with plants and wildlife stimulates their curiosity and imagination far more than staring at digital screens all day.",
+              "translation_az": "Açıq havada vaxt keçirmək gənclərdə həm fiziki, həm də idrak (koqnitiv) inkişafı təşviq edir. Təbii mühitdə olmaq uşaqlıqda piylənmə və yaxındangörmə riskini azaldan fəal fiziki oyunları təşviq edir. Üstəlik, bitkilər və vəhşi təbiətlə təmasda olmaq onların marağını və təxəyyülünü gün boyu rəqəmsal ekranlara baxmaqdan qat-qat çox stimullaşdırır."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cambridge-21-speaking-4",
+      "book": "Cambridge 21",
+      "module": "Speaking",
+      "test_number": 4,
+      "title": "Cambridge IELTS 21 Academic Speaking Test 4",
+      "engnovate_url": "https://engnovate.com/ielts-speaking-tests/cambridge-ielts-21-academic-speaking-test-4/",
+      "difficulty": "Academic Standard",
+      "status": "Ready to practice",
+      "parts": {
+        "part_1": {
+          "topic": "Daily Routine & Time Management"
+        },
+        "part_2": {
+          "topic": "Describe an ambitious goal you achieved"
+        },
+        "part_3": {
+          "topic": "Goals, Ambitions & Modern Success"
+        }
+      }
+    },
+    {
+      "id": "cambridge-21-listening-1",
+      "book": "Cambridge 21",
+      "module": "Listening",
+      "test_number": 1,
+      "title": "Cambridge IELTS 21 Academic Listening Test 1",
+      "engnovate_url": "https://engnovate.com/ielts-listening-tests/cambridge-ielts-21-academic-listening-test-1/",
+      "difficulty": "Academic Standard",
+      "status": "Ready to practice"
+    },
+    {
+      "id": "cambridge-21-reading-1",
+      "book": "Cambridge 21",
+      "module": "Reading",
+      "test_number": 1,
+      "title": "Cambridge IELTS 21 Academic Reading Test 1",
+      "engnovate_url": "https://engnovate.com/ielts-reading-tests/cambridge-ielts-21-academic-reading-test-1/",
+      "difficulty": "Academic Standard",
+      "status": "Ready to practice"
+    },
+    {
+      "id": "cambridge-21-writing-1",
+      "book": "Cambridge 21",
+      "module": "Writing",
+      "test_number": 1,
+      "title": "Cambridge IELTS 21 Academic Writing Test 1",
+      "engnovate_url": "https://engnovate.com/ielts-writing-tests/cambridge-ielts-21-academic-writing-test-1/",
+      "difficulty": "Academic Standard",
+      "status": "Ready to practice"
+    },
+    {
+      "id": "cambridge-20-speaking-3",
+      "book": "Cambridge 20",
+      "module": "Speaking",
+      "test_number": 3,
+      "title": "Cambridge IELTS 20 Academic Speaking Test 3",
+      "engnovate_url": "https://engnovate.com/ielts-speaking-tests/cambridge-ielts-20-academic-speaking-test-3/",
+      "difficulty": "Academic Standard",
+      "status": "Completed",
+      "parts": {
+        "part_1": {
+          "topic": "Hometown & Neighborhoods"
+        },
+        "part_2": {
+          "topic": "Describe a historical event you learned about"
+        },
+        "part_3": {
+          "topic": "History, Museums & Cultural Heritage"
+        }
+      }
+    },
+    {
+      "id": "cambridge-19-speaking-3",
+      "book": "Cambridge 19",
+      "module": "Speaking",
+      "test_number": 3,
+      "title": "Cambridge IELTS 19 Academic Speaking Test 3",
+      "engnovate_url": "https://engnovate.com/ielts-speaking-tests/cambridge-ielts-19-academic-speaking-test-3/",
+      "difficulty": "Academic Standard",
+      "status": "Ready to practice"
+    }
+  ]
+}

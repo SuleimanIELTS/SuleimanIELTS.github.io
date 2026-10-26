@@ -36,5 +36,16 @@
       "phase": "Week 5-6",
       "focus": "Full mock tests under strict exam conditions"
     }
-  ]
+  ],
+  "latest_diagnostic_result": {
+    "test_id": "cambridge-19-listening-4",
+    "test_title": "Cambridge IELTS 19 Academic Listening Test 4",
+    "date": "2026-10-26",
+    "score": 5.0,
+    "correct_count": 15,
+    "total_count": 40,
+    "time_spent": "00:32:26",
+    "target_score": 8.5,
+    "gap_analysis": "Gap to target Band 8.5 is 20 marks. Key priority: Eliminate Part 1 spelling/number errors (+4 marks), train Part 3 speaker turn inferences (+5 marks), and predict noun forms in Part 4 (+5 marks)."
+  }
 }

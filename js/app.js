@@ -130,11 +130,12 @@ function renderDashboard() {
   const total = appData.tests.length;
   const inProgress = appData.tests.filter((t) => t.status === "In Progress").length;
   const completed = appData.tests.filter((t) => t.status === "Completed").length;
+  const latestResult = appData.studyPlan.latest_diagnostic_result;
 
   statsContainer.innerHTML = `
     <div class="card">
       <div class="card-header">
-        <span class="card-title">🎯 Target Band</span>
+        <span class="card-title">🎯 Hədəf Bal</span>
         <span class="target-badge">${appData.studyPlan.target_band_score || 8.0}</span>
       </div>
       <p style="font-size: 0.85rem; color: var(--text-secondary);">
@@ -145,22 +146,39 @@ function renderDashboard() {
     </div>
     <div class="card">
       <div class="card-header">
-        <span class="card-title">📚 Tests In Progress</span>
-        <span class="status-badge status-in-progress">${inProgress} active</span>
+        <span class="card-title">📚 Sınaq Testləri</span>
+        <span class="status-badge status-in-progress">${completed} tamamlanıb</span>
       </div>
       <p style="font-size: 0.85rem; color: var(--text-secondary);">
-        Latest: <strong>Cambridge 21 Academic Speaking Test 3</strong>
+        Son işlənən: <strong>Cambridge 19 Listening Test 4</strong>
       </p>
     </div>
     <div class="card">
       <div class="card-header">
         <span class="card-title">⚡ Engnovate Companion</span>
-        <span class="status-badge status-ready">Ready</span>
+        <span class="status-badge status-ready">Aktiv</span>
       </div>
       <p style="font-size: 0.85rem; color: var(--text-secondary);">
-        Direct launch to tests without cache or session clutter
+        Keş və limit maneəsi olmadan birbaşa sınaqlara keçid
       </p>
     </div>
+    ${latestResult ? `
+    <div class="card" style="grid-column: 1 / -1; border-left: 4px solid var(--accent-amber); background: linear-gradient(135deg, var(--bg-surface), var(--bg-subtle));">
+      <div class="card-header">
+        <span class="card-title">📊 Son İmtahan Nəticəsi (Desktop Arxivindən Əlavə Olundu)</span>
+        <span class="target-badge" style="background: rgba(245, 158, 11, 0.15); color: var(--accent-amber); border-color: rgba(245, 158, 11, 0.3);">Toplanan Nəticə: Band ${latestResult.score}</span>
+      </div>
+      <p style="font-size: 0.95rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.25rem;">
+        ${latestResult.test_title}
+      </p>
+      <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.6rem;">
+        Doğru cavablar: <strong>${latestResult.correct_count} / ${latestResult.total_count}</strong> • İmtahan müddəti: <strong>${latestResult.time_spent}</strong> • Tarix: <strong>${latestResult.date}</strong>
+      </p>
+      <div style="font-size: 0.8rem; color: var(--text-secondary); background: var(--bg-surface); padding: 0.6rem 0.85rem; border-radius: var(--radius-sm); border: 1px solid var(--border-light);">
+        <strong>💡 Diaqnostik Təhlil & Band 8.5 Yol Xəritəsi:</strong> ${latestResult.gap_analysis}
+      </div>
+    </div>
+    ` : ''}
   `;
 
   // Study Routine Checklist
@@ -293,16 +311,39 @@ function renderTestsDirectory() {
   const grid = document.getElementById("tests-grid");
   if (!grid) return;
 
-  grid.innerHTML = appData.tests.map((t) => `
+  grid.innerHTML = appData.tests.map((t) => {
+    const hasScore = t.score !== undefined;
+    const scoreBadge = hasScore ? `<span class="target-badge" style="background: rgba(245, 158, 11, 0.15); color: var(--accent-amber); border-color: rgba(245, 158, 11, 0.3); font-size: 0.7rem; padding: 0.15rem 0.45rem;">Band ${t.score} (${t.correct_answers}/${t.total_questions})</span>` : '';
+    const hasReview = t.parts && (t.parts.part_1?.key_mistakes || t.parts.part_4?.key_mistakes);
+    const reviewId = `review-${t.id}`;
+
+    return `
     <div class="test-card">
       <div>
         <div class="test-badge-row">
           <span class="module-badge">${t.module}</span>
-          <span class="status-badge ${getStatusClass(t.status)}">${t.status}</span>
+          <div style="display: flex; gap: 0.35rem; align-items: center;">
+            ${scoreBadge}
+            <span class="status-badge ${getStatusClass(t.status)}">${t.status}</span>
+          </div>
         </div>
         <div class="test-title">${t.title}</div>
-        <div class="test-topic-desc">${t.parts?.part_1?.topic || t.parts?.part_2?.topic || t.difficulty}</div>
+        <div class="test-topic-desc">
+          ${t.attempt_date ? `📅 <strong>Tarix:</strong> ${t.attempt_date} • ⏱️ ${t.time_spent}<br>` : ''}
+          ${t.parts?.part_1?.topic || t.parts?.part_2?.topic || t.difficulty}
+        </div>
       </div>
+
+      ${hasReview ? `
+        <div id="${reviewId}" class="translation-box" style="margin-top: 0.65rem; font-size: 0.8rem; font-style: normal; line-height: 1.5; border-left: 3px solid var(--accent-rose);">
+          <strong style="color: var(--accent-rose); display: block; margin-bottom: 0.35rem;">⚠️ Əsas Səhvlər və Düzgün İzahlar:</strong>
+          <ul style="padding-left: 1.1rem; display: flex; flex-direction: column; gap: 0.35rem;">
+            ${(t.parts.part_1?.key_mistakes || []).slice(0, 3).map(m => `<li><strong>Q${m.q}:</strong> Yazılan: <code style="color:var(--accent-rose); font-weight:700;">${m.user}</code> &rarr; Doğru: <code style="color:var(--accent-green); font-weight:700;">${m.correct}</code> <br><span style="color:var(--text-muted); font-size:0.75rem;">(${m.note})</span></li>`).join('')}
+            ${(t.parts.part_4?.key_mistakes || []).slice(0, 3).map(m => `<li><strong>Q${m.q}:</strong> Yazılan: <code style="color:var(--accent-rose); font-weight:700;">${m.user}</code> &rarr; Doğru: <code style="color:var(--accent-green); font-weight:700;">${m.correct}</code> <br><span style="color:var(--text-muted); font-size:0.75rem;">(${m.note})</span></li>`).join('')}
+          </ul>
+        </div>
+      ` : ''}
+
       <div class="test-actions">
         <a href="${t.engnovate_url}" target="_blank" rel="noopener noreferrer" class="btn-primary" style="font-size: 0.8rem; padding: 0.45rem 0.85rem;">
           <span>Open on Engnovate</span>
@@ -312,12 +353,18 @@ function renderTestsDirectory() {
             <line x1="10" y1="14" x2="21" y2="3"></line>
           </svg>
         </a>
-        <button class="btn-secondary" style="font-size: 0.8rem; padding: 0.45rem 0.75rem;" onclick="markTestDone('${t.id}')">
-          Mark Done
-        </button>
+        ${hasReview ? `
+          <button class="btn-secondary" style="font-size: 0.8rem; padding: 0.45rem 0.75rem;" onclick="toggleTranslation('${reviewId}')">
+            🔍 Səhvləri Aç / Bağla
+          </button>
+        ` : `
+          <button class="btn-secondary" style="font-size: 0.8rem; padding: 0.45rem 0.75rem;" onclick="markTestDone('${t.id}')">
+            ${t.status === 'Completed' ? 'Yenidən İşlə' : 'Tamamlandı'}
+          </button>
+        `}
       </div>
     </div>
-  `).join("");
+  `}).join("");
 }
 
 function getStatusClass(status) {

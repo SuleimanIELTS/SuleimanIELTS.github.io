@@ -165,6 +165,166 @@
       }
     },
     {
+      "id": "cambridge-19-listening-4",
+      "book": "Cambridge 19",
+      "module": "Listening",
+      "test_number": 4,
+      "title": "Cambridge IELTS 19 Academic Listening Test 4",
+      "engnovate_url": "https://engnovate.com/ielts-listening-tests/cambridge-ielts-19-academic-listening-test-4/",
+      "difficulty": "Academic Standard",
+      "status": "Completed",
+      "attempt_date": "2026-10-26",
+      "time_spent": "00:32:26",
+      "score": 5.0,
+      "correct_answers": 15,
+      "total_questions": 40,
+      "target_score": 8.5,
+      "parts": {
+        "part_1": {
+          "topic": "First Day at Work in Supermarket (Kaeden & Charlotte)",
+          "audio_url": "https://ielts-listening-audio.engnovatemedia.com/163752-cambridge-ielts-19-academic-listening-4-audio-1.mp3",
+          "score_part": "6 / 10",
+          "key_mistakes": [
+            {
+              "q": 1,
+              "user": "Kaiden",
+              "correct": "KAEDEN",
+              "note": "Spelling trap: audio spelled letter-by-letter K-A-E-D-E-N."
+            },
+            {
+              "q": 2,
+              "user": "desk",
+              "correct": "locker / lockers",
+              "note": "Coat and rucksack left in locker."
+            },
+            {
+              "q": 6,
+              "user": "0412665703",
+              "correct": "0412665903",
+              "note": "Number transcription: misheard nine-oh-three."
+            },
+            {
+              "q": 7,
+              "user": "price",
+              "correct": "yellow",
+              "note": "Missed colour descriptor: put a yellow price label."
+            },
+            {
+              "q": 9,
+              "user": "fridge",
+              "correct": "ice",
+              "note": "Fish is laid on ice from the cold-room."
+            }
+          ]
+        },
+        "part_2": {
+          "topic": "Compton Park Runners Club (Liz Fuller)",
+          "audio_url": "https://ielts-listening-audio.engnovatemedia.com/163863-cambridge-ielts-19-academic-listening-4-audio-2-.mp3",
+          "score_part": "4 / 10",
+          "key_mistakes": [
+            {
+              "q": 15,
+              "user": "C (lack of time)",
+              "correct": "A (lack of confidence)",
+              "note": "Ceri worried about being the slowest runner."
+            },
+            {
+              "q": 17,
+              "user": "A (lack of confidence)",
+              "correct": "C (lack of time)",
+              "note": "Leo worried about fitting sessions into busy schedule."
+            },
+            {
+              "q": 18,
+              "user": "B (dislike of running)",
+              "correct": "A (lack of confidence)",
+              "note": "Mark took months to find courage to contact."
+            }
+          ]
+        },
+        "part_3": {
+          "topic": "Book Storage, Preservation & Grandfather Bookshop (Jane & Kieran)",
+          "audio_url": "https://ielts-listening-audio.engnovatemedia.com/163754-cambridge-ielts-19-academic-listening-4-audio-3.mp3",
+          "score_part": "2 / 10",
+          "key_mistakes": [
+            {
+              "q": 21,
+              "correct": "A",
+              "note": "Grandfather packing advice is common sense."
+            },
+            {
+              "q": 22,
+              "correct": "C",
+              "note": "Books have sentimental value."
+            },
+            {
+              "q": 26,
+              "correct": "D (on a high shelf)",
+              "note": "Rare books placed high so ladder is needed."
+            },
+            {
+              "q": 27,
+              "correct": "F (dedicated space)",
+              "note": "Dedicated ground floor area with cushions."
+            },
+            {
+              "q": 28,
+              "correct": "A (near entrance)",
+              "note": "Unwanted books left by front door."
+            },
+            {
+              "q": 30,
+              "correct": "G (within cafe)",
+              "note": "Coursebooks on low shelves around coffee shop."
+            }
+          ]
+        },
+        "part_4": {
+          "topic": "Tropical Forest Restoration & Fig Trees (Academic Lecture)",
+          "audio_url": "https://ielts-listening-audio.engnovatemedia.com/163753-cambridge-ielts-19-academic-listening-4-audio-4.mp3",
+          "score_part": "3 / 10",
+          "key_mistakes": [
+            {
+              "q": 31,
+              "user": "biodiversity",
+              "correct": "competition",
+              "note": "Invasive species in competition with native species."
+            },
+            {
+              "q": 35,
+              "user": "information",
+              "correct": "maps",
+              "note": "Accurate up-to-date maps."
+            },
+            {
+              "q": 37,
+              "user": "recovery",
+              "correct": "speed",
+              "note": "Accelerate speed of recovery."
+            },
+            {
+              "q": 38,
+              "user": "healthy",
+              "correct": "monkeys",
+              "note": "Monkeys visited to eat figs and disperse seeds."
+            },
+            {
+              "q": 39,
+              "user": "community",
+              "correct": "fishing",
+              "note": "Made it difficult to make a living from fishing."
+            },
+            {
+              "q": 40,
+              "user": "children",
+              "correct": "flooding",
+              "note": "Protects against higher risk of flooding."
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "cambridge-21-speaking-4",
       "book": "Cambridge 21",
       "module": "Speaking",

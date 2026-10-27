@@ -87,6 +87,14 @@
           </svg>
           <span>Writing Blueprints</span>
         </button>
+
+        <button class="tab-btn" data-tab="view-stories">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+          </svg>
+          <span>500 Söz (25 Hekayə)</span>
+        </button>
       </nav>
     </div>
   </header>
@@ -293,6 +301,32 @@
       </div>
 
       <div id="writing-blueprints-container">
+        <!-- Injected via JavaScript -->
+      </div>
+    </section>
+
+    <!-- VIEW 6: 500 SÖZ 25 HEKAYƏDƏ -->
+    <section id="view-stories" class="view-section">
+      <div style="margin-bottom: 1.5rem;">
+        <h2 style="font-size: 1.35rem; font-weight: 800;">500 İngilis Sözü 25 Hekayədə Rahat Öyrən</h2>
+        <p style="color: var(--text-secondary); font-size: 0.9rem;">
+          Hər hekayədə 20 hədəf söz. Əvvəlcə ingiliscə hekayəni oxuyun, sonra paralel Azərbaycan dilində tərcümə və sözlük cədvəli ilə biliyinizi möhkəmləndirin.
+        </p>
+      </div>
+
+      <div class="stories-controls" style="margin-bottom: 1.5rem; display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center;">
+        <select id="story-selector" class="filter-select" style="min-width: 280px; font-weight: 600;">
+          <!-- Populated by JS -->
+        </select>
+        <button id="toggle-az-translation-btn" class="action-btn" style="padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--border-medium); background: var(--bg-surface); color: var(--text-primary); cursor: pointer; font-size: 0.85rem; font-weight: 600;">
+          🇦🇿 Azərbaycanca Tərcüməni Göstər / Gizlət
+        </button>
+        <button id="toggle-word-test-btn" class="action-btn" style="padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--border-medium); background: var(--bg-surface); color: var(--text-primary); cursor: pointer; font-size: 0.85rem; font-weight: 600;">
+          👁️ Mənaları Gizlət (Test Rejimi)
+        </button>
+      </div>
+
+      <div id="story-display-container">
         <!-- Injected via JavaScript -->
       </div>
     </section>

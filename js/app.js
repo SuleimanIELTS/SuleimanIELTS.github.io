@@ -13,7 +13,8 @@ let appData = {
   tests: [],
   vocab: [],
   writing: {},
-  studyPlan: {}
+  studyPlan: {},
+  storiesData: { stories: [] }
 };
 
 // Theme Toggle
@@ -100,23 +101,26 @@ function initTabs() {
 // Fetch and Load JSON Data
 async function loadData() {
   try {
-    const [testsRes, vocabRes, writingRes, planRes] = await Promise.all([
+    const [testsRes, vocabRes, writingRes, planRes, storiesRes] = await Promise.all([
       fetch("data/cambridge_tests.json"),
       fetch("data/vocabulary_vault.json"),
       fetch("data/writing_templates.json"),
-      fetch("data/study_plan.json")
+      fetch("data/study_plan.json"),
+      fetch("data/stories_500_words.json")
     ]);
 
     appData.tests = (await testsRes.json()).tests || [];
     appData.vocab = (await vocabRes.json()).categories || [];
     appData.writing = await writingRes.json();
     appData.studyPlan = await planRes.json();
+    appData.storiesData = await storiesRes.json();
 
     renderDashboard();
     renderSpeakingSuite();
     renderTestsDirectory();
     renderVocabularyVault();
     renderWritingBlueprints();
+    renderStoriesReader();
   } catch (err) {
     console.error("Failed to load local JSON feeds:", err);
   }
@@ -511,3 +515,163 @@ function initScratchpad() {
     });
   }
 }
+
+// 6. 500 Söz 25 Hekayədə Reader
+let currentStoryIndex = 0;
+let showAzTranslation = true;
+let testModeHidden = false;
+
+function renderStoriesReader() {
+  const container = document.getElementById("story-display-container");
+  const selector = document.getElementById("story-selector");
+  if (!container || !selector) return;
+
+  const stories = appData.storiesData?.stories || [];
+  if (stories.length === 0) {
+    container.innerHTML = `<p style="color: var(--text-muted);">Hekayələr yüklənmədi.</p>`;
+    return;
+  }
+
+  // Populate select dropdown
+  selector.innerHTML = stories.map((s, idx) => `
+    <option value="${idx}" ${idx === currentStoryIndex ? "selected" : ""}>
+      ${s.id}. ${s.title_en} (${s.title_az} · ${s.word_range})
+    </option>
+  `).join("");
+
+  selector.onchange = (e) => {
+    currentStoryIndex = parseInt(e.target.value, 10);
+    renderActiveStory();
+  };
+
+  const toggleAzBtn = document.getElementById("toggle-az-translation-btn");
+  if (toggleAzBtn) {
+    toggleAzBtn.onclick = () => {
+      showAzTranslation = !showAzTranslation;
+      const azBox = document.getElementById("story-az-container");
+      if (azBox) {
+        azBox.style.display = showAzTranslation ? "block" : "none";
+      }
+    };
+  }
+
+  const toggleTestBtn = document.getElementById("toggle-word-test-btn");
+  if (toggleTestBtn) {
+    toggleTestBtn.onclick = () => {
+      testModeHidden = !testModeHidden;
+      document.querySelectorAll(".vocab-meaning-cell").forEach((cell) => {
+        cell.style.filter = testModeHidden ? "blur(6px)" : "none";
+        cell.style.userSelect = testModeHidden ? "none" : "auto";
+        cell.title = testModeHidden ? "Görmək üçün üzərinə klikləyin" : "";
+      });
+      toggleTestBtn.classList.toggle("btn-active", testModeHidden);
+      toggleTestBtn.innerText = testModeHidden ? "👁️ Mənaları Göstər" : "👁️ Mənaları Gizlət (Test Rejimi)";
+    };
+  }
+
+  renderActiveStory();
+}
+
+function renderActiveStory() {
+  const container = document.getElementById("story-display-container");
+  const stories = appData.storiesData?.stories || [];
+  const story = stories[currentStoryIndex];
+  if (!container || !story) return;
+
+  // Format English paragraphs
+  const enHtml = story.story_en.map(p => `<p style="margin-bottom: 0.9rem; font-size: 1.05rem; line-height: 1.7; color: var(--text-primary);">${highlightWordSuperscripts(p)}</p>`).join("");
+
+  // Format Azerbaijani paragraphs
+  const azHtml = story.story_az.map(p => `<p style="margin-bottom: 0.85rem; font-size: 0.98rem; line-height: 1.65; color: var(--text-secondary);">${p}</p>`).join("");
+
+  // Format Vocabulary Table
+  const tableRows = story.vocabulary.map(v => `
+    <tr style="border-bottom: 1px solid var(--border-light);">
+      <td style="padding: 0.65rem 0.75rem; font-weight: 700; color: var(--primary); width: 50px;">${v.num}</td>
+      <td style="padding: 0.65rem 0.75rem; font-weight: 600; color: var(--text-primary); cursor: pointer;" onclick="speakWord('${v.word.replace(/'/g, "\\'")}')" title="Tələffüzü dinlə">
+        <span style="border-bottom: 1px dashed var(--primary);">${v.word}</span> 🔊
+      </td>
+      <td class="vocab-meaning-cell" style="padding: 0.65rem 0.75rem; color: var(--text-secondary); cursor: pointer;" onclick="this.style.filter='none';">${v.meaning}</td>
+    </tr>
+  `).join("");
+
+  container.innerHTML = `
+    <div style="background: var(--bg-surface); border: 1px solid var(--border-light); border-radius: 12px; padding: 1.75rem; margin-bottom: 1.5rem; box-shadow: var(--shadow-sm);">
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem; border-bottom: 1px solid var(--border-light); padding-bottom: 0.75rem;">
+        <div>
+          <span style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--primary);">Hekayə ${story.id} / 25 • ${story.word_range}</span>
+          <h3 style="font-size: 1.45rem; font-weight: 800; margin-top: 0.25rem;">${story.title_en}</h3>
+          <p style="color: var(--text-secondary); font-size: 1rem; font-weight: 500;">${story.title_az}</p>
+        </div>
+        <div style="display: flex; gap: 0.5rem;">
+          <button onclick="changeStory(-1)" style="padding: 0.4rem 0.8rem; border-radius: 6px; border: 1px solid var(--border-medium); background: var(--bg-subtle); color: var(--text-primary); cursor: pointer;" ${currentStoryIndex === 0 ? "disabled" : ""}>&larr; Əvvəlki</button>
+          <button onclick="changeStory(1)" style="padding: 0.4rem 0.8rem; border-radius: 6px; border: 1px solid var(--border-medium); background: var(--bg-subtle); color: var(--text-primary); cursor: pointer;" ${currentStoryIndex === stories.length - 1 ? "disabled" : ""}>Növbəti &rarr;</button>
+        </div>
+      </div>
+
+      <!-- English Story -->
+      <div style="margin-bottom: 1.5rem;">
+        <h4 style="font-size: 0.95rem; font-weight: 700; color: var(--text-muted); margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.04em;">📖 English Narrative</h4>
+        <div style="background: var(--bg-subtle); border-radius: 8px; padding: 1.25rem; border-left: 4px solid var(--primary);">
+          ${enHtml}
+        </div>
+      </div>
+
+      <!-- Azerbaijani Translation -->
+      <div id="story-az-container" style="display: ${showAzTranslation ? "block" : "none"}; margin-bottom: 1.5rem;">
+        <h4 style="font-size: 0.95rem; font-weight: 700; color: var(--accent-green); margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.04em;">🇦🇿 Paralel Azərbaycan Dilində Tərcümə</h4>
+        <div style="background: var(--bg-primary); border-radius: 8px; padding: 1.25rem; border-left: 4px solid var(--accent-green);">
+          ${azHtml}
+        </div>
+      </div>
+
+      <!-- Vocabulary Table -->
+      <div>
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+          <h4 style="font-size: 0.95rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em;">💎 Sözlük Cədvəli (${story.word_range})</h4>
+          <span style="font-size: 0.8rem; color: var(--text-muted);">Sözün üzərinə klikləyərək tələffüzünü dinləyin</span>
+        </div>
+        <div style="overflow-x: auto; border: 1px solid var(--border-light); border-radius: 8px;">
+          <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.92rem;">
+            <thead>
+              <tr style="background: var(--bg-subtle); border-bottom: 2px solid var(--border-medium);">
+                <th style="padding: 0.65rem 0.75rem; width: 50px;">№</th>
+                <th style="padding: 0.65rem 0.75rem;">Söz (Word)</th>
+                <th style="padding: 0.65rem 0.75rem;">Mənası (Meaning)</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${tableRows}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function highlightWordSuperscripts(text) {
+  // Convert word numbers like word12 or word3 to bold with highlight
+  return text.replace(/([a-zA-Z\-]+)(\d{1,3})/g, '<strong style="background: rgba(37,99,235,0.12); color: var(--primary); padding: 1px 4px; border-radius: 4px;">$1<sup style="font-size: 0.7em; margin-left: 1px;">$2</sup></strong>');
+}
+
+function speakWord(word) {
+  if ('speechSynthesis' in window) {
+    const clean = word.replace(/[^a-zA-Z\s\-]/g, '');
+    const utter = new SpeechSynthesisUtterance(clean);
+    utter.lang = 'en-US';
+    utter.rate = 0.9;
+    window.speechSynthesis.speak(utter);
+  }
+}
+
+window.changeStory = function(offset) {
+  const stories = appData.storiesData?.stories || [];
+  const next = currentStoryIndex + offset;
+  if (next >= 0 && next < stories.length) {
+    currentStoryIndex = next;
+    const selector = document.getElementById("story-selector");
+    if (selector) selector.value = currentStoryIndex;
+    renderActiveStory();
+  }
+};

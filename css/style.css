@@ -922,3 +922,80 @@ footer {
   text-align: center;
   background: var(--bg-surface);
 }
+
+/* Private Data Access Notice */
+.access-notice-box {
+  background: var(--bg-surface);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  border-left: 4px solid var(--accent-rose);
+  border-radius: var(--radius-md);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.access-notice-content {
+  flex: 1;
+}
+
+.access-notice-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.access-notice-header h4 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.access-notice-box p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  margin-bottom: 0.3rem;
+}
+
+.access-notice-sub {
+  font-size: 0.82rem !important;
+  color: var(--text-muted) !important;
+}
+
+.btn-access-request {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1.15rem;
+  border-radius: var(--radius-md);
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #ffffff;
+  background: #dc2626;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: var(--transition);
+  box-shadow: 0 2px 4px rgba(220, 38, 38, 0.25);
+}
+
+.btn-access-request:hover {
+  background: #b91c1c;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(220, 38, 38, 0.35);
+}
+
+@media (max-width: 768px) {
+  .access-notice-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .btn-access-request {
+    width: 100%;
+    justify-content: center;
+  }
+}

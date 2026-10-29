@@ -38,10 +38,17 @@
 
 ---
 
-## 🔒 Arxitektura və Təhlükəsizlik
+## 🔒 Arxitektura və Məxfi Məlumat Girişi (Private Data Access)
+
+> [!IMPORTANT]
+> **🔒 Məxfi Məlumat Bazası (Private Data Notice):**  
+> Bu layihənin mərkəzi data anbarı, 400+ xam IELTS sənədi, fərdi tələbə esseləri, Cambridge sınaqları və 62 səhifəlik Obsidian LLM Wiki bilik bazası saxlanılan **`SuleimanIELTS`** repozitoriyası **tamamilə məxfidir (Private)**.  
+> 
+> Giriş (access) əldə etmək istəyirsinizsə, elektron poçt vasitəsilə müraciət edə bilərsiniz:  
+> 📧 **[suleyman.hacizade1@gmail.com](mailto:suleyman.hacizade1@gmail.com?subject=Access%20Request%20-%20SuleimanIELTS%20Private%20Data)**
 
 - **Frontend (Bu repo - Public)**: Yalnız statik HTML5, CSS3 və təmiz ES6 JavaScript. Heç bir kənar ağır asılılıq və ya izləyici yoxdur.
-- **Data Repozitoriyası (`SuleimanIELTS` - Private)**: Bütün testlər, şəxsi qeydlər, tədris planları və lüğət bazası `SuleimanIELTS` şəxsi repozitoriyasında saxlanılır və `sync_to_frontend.py` skripti ilə avtomatlaşdırılmış şəkildə yoxlanılaraq bura sinxronlaşdırılır.
+- **Data Repozitoriyası (`SuleimanIELTS` - Private)**: Bütün testlər, şəxsi qeydlər, tədris planları və lüğət bazası `SuleimanIELTS` şəxsi repozitoriyasında saxlanılır və avtomatlaşdırılmış şəkildə yoxlanılaraq bura sinxronlaşdırılır. Giriş üçün müraciət: `suleyman.hacizade1@gmail.com`.
 
 ---
 

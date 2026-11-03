@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- 1. Home / Main Portal -->
+  <url>
+    <loc>https://suleimanielts.github.io/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="az" href="https://suleimanielts.github.io/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://suleimanielts.github.io/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://suleimanielts.github.io/" />
+    <image:image>
+      <image:loc>https://suleimanielts.github.io/assets/ielts_logo_badge_square.png</image:loc>
+      <image:title>Suleiman IELTS Official Emblem Badge</image:title>
+      <image:caption>Suleiman IELTS — Academic Practice Platform &amp; Engnovate Companion</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://suleimanielts.github.io/assets/ielts_logo_avatar_square.png</image:loc>
+      <image:title>Suleiman IELTS Avatar Logo</image:title>
+      <image:caption>Minimalist, Distraction-Free IELTS Academic Preparation Platform</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 2. Speaking Practice Suite & Simulator -->
+  <url>
+    <loc>https://suleimanielts.github.io/speaking/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="az" href="https://suleimanielts.github.io/speaking/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://suleimanielts.github.io/speaking/" />
+    <image:image>
+      <image:loc>https://suleimanielts.github.io/assets/ielts_logo_avatar_square.png</image:loc>
+      <image:title>IELTS Speaking Suite &amp; Audio Recorder Simulator</image:title>
+      <image:caption>Part 1, Part 2 Cue Cards with 1-min prep / 2-min speech timers and Part 3 discussion</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 3. Cambridge Practice Tests Directory (15–21) -->
+  <url>
+    <loc>https://suleimanielts.github.io/tests/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="az" href="https://suleimanielts.github.io/tests/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://suleimanielts.github.io/tests/" />
+    <image:image>
+      <image:loc>https://suleimanielts.github.io/assets/ielts_logo_avatar_square.png</image:loc>
+      <image:title>Cambridge IELTS Academic Tests Directory</image:title>
+      <image:caption>Direct access to Cambridge 15, 16, 17, 18, 19, 20, and 21 Academic practice tests</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 4. Lexical Resource Vault (C1 / C2) -->
+  <url>
+    <loc>https://suleimanielts.github.io/vault/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="az" href="https://suleimanielts.github.io/vault/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://suleimanielts.github.io/vault/" />
+    <image:image>
+      <image:loc>https://suleimanielts.github.io/assets/ielts_logo_avatar_square.png</image:loc>
+      <image:title>IELTS C1/C2 Lexical Resource Vault</image:title>
+      <image:caption>Band 8.0–9.0 collocations, idioms, and advanced academic vocabulary</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 5. Academic Writing Blueprints (Task 1 & Task 2) -->
+  <url>
+    <loc>https://suleimanielts.github.io/writing/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="az" href="https://suleimanielts.github.io/writing/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://suleimanielts.github.io/writing/" />
+    <image:image>
+      <image:loc>https://suleimanielts.github.io/assets/ielts_logo_avatar_square.png</image:loc>
+      <image:title>IELTS Academic Writing Blueprints</image:title>
+      <image:caption>Band 8.5 paragraph structures, cohesive devices, Task 1 trends and Task 2 templates</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 6. 500 Words in 25 Stories (Bilingual Reader) -->
+  <url>
+    <loc>https://suleimanielts.github.io/stories/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="az" href="https://suleimanielts.github.io/stories/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://suleimanielts.github.io/stories/" />
+    <image:image>
+      <image:loc>https://suleimanielts.github.io/assets/ielts_logo_badge_square.png</image:loc>
+      <image:title>500 English Words in 25 Stories</image:title>
+      <image:caption>25 bilingual stories with interactive testing mode and vocabulary glossaries</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 7. Dashboard & Study Companion -->
+  <url>
+    <loc>https://suleimanielts.github.io/dashboard/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+    <xhtml:link rel="alternate" hreflang="az" href="https://suleimanielts.github.io/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://suleimanielts.github.io/dashboard/" />
+  </url>
+
+  <!-- 8. About & Private Data Access Protocol -->
+  <url>
+    <loc>https://suleimanielts.github.io/about/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="az" href="https://suleimanielts.github.io/about/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://suleimanielts.github.io/about/" />
+  </url>
+
+</urlset>

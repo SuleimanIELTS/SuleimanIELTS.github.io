@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="az" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Səhifə Tapılmadı (404) — Suleiman IELTS</title>
+  <meta name="description" content="Axtardığınız səhifə tapılmadı. Suleiman IELTS Academic hazırlıq platformasının əsas səhifəsinə qayıdın." />
+  <meta name="robots" content="noindex, follow" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <script>
+    // GitHub Pages SPA Routing helper
+    // If route matches /speaking, /tests, /vault, /writing, /stories, /dashboard, redirect cleanly
+    const path = window.location.pathname.replace(/^\/|\/$/g, '');
+    const knownRoutes = {
+      'speaking': '/#view-speaking',
+      'tests': '/#view-tests',
+      'vault': '/#view-vault',
+      'writing': '/#view-writing',
+      'stories': '/#view-stories',
+      'dashboard': '/#view-dashboard',
+      'about': '/about/'
+    };
+    if (knownRoutes[path]) {
+      window.location.replace(knownRoutes[path]);
+    }
+  </script>
+</head>
+<body style="min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 2rem;">
+  <div style="max-width: 560px; text-align: center; background: var(--bg-surface); padding: 3rem 2rem; border-radius: 16px; border: 1px solid var(--border-medium); box-shadow: var(--shadow-lg);">
+    <div style="font-size: 3.5rem; margin-bottom: 1rem;">🔍</div>
+    <h1 style="font-size: 2rem; font-weight: 800; margin-bottom: 0.75rem; color: var(--text-primary);">404 — Səhifə Tapılmadı</h1>
+    <p style="color: var(--text-secondary); margin-bottom: 2rem; line-height: 1.6;">
+      Axtardığınız keçid mövcud deyil və ya ünvan dəyişdirilmişdir. Suleiman IELTS platformasının əsas bölmələrinə daxil olmaq üçün aşağıdakı düymələrdən istifadə edin:
+    </p>
+    <div style="display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap;">
+      <a href="/" class="btn-primary" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">🏠 Əsas Səhifə</a>
+      <a href="/#view-speaking" class="action-btn" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">🎙️ Speaking Suite</a>
+      <a href="/#view-tests" class="action-btn" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">📚 Cambridge Tests</a>
+      <a href="/#view-stories" class="action-btn" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">📖 500 Söz 25 Hekayə</a>
+    </div>
+  </div>
+</body>
+</html>

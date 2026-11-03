@@ -38,6 +38,31 @@
 
 ---
 
+## 🌐 Axtarış Motoru Optimizasiyası və URL Sxemi (Senior SEO Architecture)
+
+Platformanın bütün URL və alt-keçidləri (paths) Google, Bing, Yandex və digər qlobal axtarış sistemlərində ən yüksək reytinq (Top 1 Rank) üçün **Senior / Architect səviyyəsində** optimallaşdırılmışdır:
+
+| URL / Path | Modul Təyinatı | JSON-LD Schema Növü | İndekslənmə Prioriteti |
+| :--- | :--- | :--- | :---: |
+| `https://suleimanielts.github.io/` | Əsas İdarəetmə Portalı & Dashboard | `WebSite`, `EducationalOrganization` | `1.0` (Daily) |
+| `https://suleimanielts.github.io/speaking/` | Speaking Suite, Timerlər & Səs Yazıcı | `WebApplication`, `BreadcrumbList`, `FAQPage` | `0.95` (Weekly) |
+| `https://suleimanielts.github.io/tests/` | Cambridge IELTS (15–21) Kataloqu | `ItemList`, `BreadcrumbList` | `0.95` (Weekly) |
+| `https://suleimanielts.github.io/vault/` | C1/C2 Lexical Vault (Kollokasiyalar) | `DefinedTermSet`, `BreadcrumbList` | `0.95` (Weekly) |
+| `https://suleimanielts.github.io/writing/` | Writing Blueprints (Task 1 & 2) | `Course`, `BreadcrumbList` | `0.95` (Weekly) |
+| `https://suleimanielts.github.io/stories/` | 500 Söz 25 Hekayədə (Bilingual Reader) | `LearningResource`, `BreadcrumbList` | `0.95` (Weekly) |
+| `https://suleimanielts.github.io/dashboard/` | Gündəlik Hazırlıq Planı & Bələdçi | `WebPage`, `BreadcrumbList` | `0.90` (Daily) |
+| `https://suleimanielts.github.io/about/` | Rəhbərlik, Missiya & Private Data Access | `AboutPage`, `EducationalOrganization` | `0.85` (Monthly) |
+
+### 🛠️ SEO Texniki İmkanları:
+- **XML Sitemap**: `https://suleimanielts.github.io/sitemap.xml` (bütün keçidlər və şəkil uzantıları daxildir).
+- **Robots Directives**: `https://suleimanielts.github.io/robots.txt` (Googlebot, Bingbot, Yandex, Applebot üçün açıq indeksləmə).
+- **Strukturlaşdırılmış Verilənlər (JSON-LD)**: Schema.org standartlı `EducationalOrganization`, `Person`, `Course`, `WebApplication`, `BreadcrumbList`, `FAQPage`.
+- **Pre-rendered HTML & Noscript Fallback**: JavaScript işləməyən axtarış botları üçün tam mətn və suallar DOM-da mövcuddur.
+- **PWA & Manifest**: `manifest.json`, 192x192 və 512x512 maskable ikonlar, `theme-color: #dc2626`.
+- **Metadata**: Canonical URL-lər, `hreflang` (`az`, `en`, `x-default`), Open Graph (`og:*`), Twitter Cards (`summary_large_image`), GEO teqləri.
+
+---
+
 ## 🔒 Arxitektura və Məxfi Məlumat Girişi (Private Data Access)
 
 > [!IMPORTANT]

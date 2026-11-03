@@ -1,0 +1,78 @@
+{
+  "name": "Suleiman IELTS — Academic Practice & Engnovate Companion",
+  "short_name": "SuleimanIELTS",
+  "description": "Minimalist, distraction-free IELTS Academic study platform featuring Cambridge 15–21 practice, Speaking Suite with audio recorder, C1/C2 Lexical Vault, Writing Blueprints, and 500 English Words in 25 Stories.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b0f19",
+  "theme_color": "#dc2626",
+  "lang": "az",
+  "categories": [
+    "education",
+    "productivity",
+    "reference"
+  ],
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Speaking Suite",
+      "short_name": "Speaking",
+      "description": "IELTS Speaking Part 1, 2, and 3 practice simulator with timer",
+      "url": "/speaking/",
+      "icons": [{ "src": "/assets/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Cambridge Tests",
+      "short_name": "Tests",
+      "description": "Cambridge Academic 15–21 Practice Tests",
+      "url": "/tests/",
+      "icons": [{ "src": "/assets/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Lexical Vault",
+      "short_name": "Vocabulary",
+      "description": "C1/C2 advanced collocations and idioms",
+      "url": "/vault/",
+      "icons": [{ "src": "/assets/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Writing Blueprints",
+      "short_name": "Writing",
+      "description": "Band 8.5 Task 1 and Task 2 structures",
+      "url": "/writing/",
+      "icons": [{ "src": "/assets/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "500 Words in 25 Stories",
+      "short_name": "Stories",
+      "description": "25 bilingual stories with interactive test mode",
+      "url": "/stories/",
+      "icons": [{ "src": "/assets/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

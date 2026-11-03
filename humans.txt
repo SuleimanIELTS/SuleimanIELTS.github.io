@@ -1,0 +1,14 @@
+/* TEAM */
+Founder & Academic Lead: Suleiman Hajizadeh
+Email: suleyman.hacizade1@gmail.com
+Website: https://suleimanielts.github.io/
+Personal GitHub: https://github.com/SuleimanHajizadeh
+Organization: https://github.com/SuleimanIELTS
+
+/* SITE */
+Standards: HTML5, CSS3, ES6+ JavaScript, Web Audio API, MediaRecorder API, Schema.org JSON-LD
+Components: In-Browser IELTS Speaking Simulator, Preparation & Speech Timers, Audio Recorder, 500-Word Bilingual Story Reader, C1/C2 Lexical Vault
+Hosting: GitHub Pages (SSL/TLS Enabled)
+Target Audience: IELTS Academic candidates aiming for Band 8.0–9.0
+Language: Azerbaijani, English
+Doctype: HTML5

@@ -63,24 +63,59 @@ function initSidecarMode() {
   }
 }
 
-// Tab Switching
+// Tab Switching & Deep URL Hash Synchronization
 function initTabs() {
   const tabButtons = document.querySelectorAll(".tab-btn");
   const viewSections = document.querySelectorAll(".view-section");
 
+  function switchTab(targetId, updateHash = true) {
+    if (!targetId) return;
+    tabButtons.forEach((b) => b.classList.remove("active"));
+    viewSections.forEach((sec) => sec.classList.remove("active"));
+
+    const activeBtn = document.querySelector(`.tab-btn[data-tab="${targetId}"]`);
+    const targetSection = document.getElementById(targetId);
+
+    if (activeBtn) activeBtn.classList.add("active");
+    if (targetSection) targetSection.classList.add("active");
+
+    if (updateHash && window.location.hash !== `#${targetId}`) {
+      history.pushState(null, "", `#${targetId}`);
+    }
+
+    // Dynamic Title Updates for SEO & UX
+    const titles = {
+      "view-dashboard": "Suleiman IELTS — Academic Practice & Engnovate Companion",
+      "view-speaking": "IELTS Speaking Practice Suite & Simulator — Suleiman IELTS",
+      "view-tests": "Cambridge Academic Practice Tests (15–21) Directory — Suleiman IELTS",
+      "view-vault": "IELTS C1/C2 Lexical Resource Vault — Suleiman IELTS",
+      "view-writing": "IELTS Academic Writing Blueprints (Task 1 & 2) — Suleiman IELTS",
+      "view-stories": "500 English Words in 25 Stories (Bilingual Reader) — Suleiman IELTS"
+    };
+    if (titles[targetId]) {
+      document.title = titles[targetId];
+    }
+  }
+
   tabButtons.forEach((btn) => {
     btn.addEventListener("click", () => {
       const targetId = btn.getAttribute("data-tab");
-
-      tabButtons.forEach((b) => b.classList.remove("active"));
-      viewSections.forEach((sec) => sec.classList.remove("active"));
-
-      btn.classList.add("active");
-      const targetSection = document.getElementById(targetId);
-      if (targetSection) {
-        targetSection.classList.add("active");
-      }
+      switchTab(targetId, true);
     });
+  });
+
+  // Handle URL hash on load
+  const initialHash = window.location.hash.replace("#", "");
+  if (initialHash && document.getElementById(initialHash)) {
+    switchTab(initialHash, false);
+  }
+
+  // Handle back / forward browser navigation
+  window.addEventListener("hashchange", () => {
+    const currentHash = window.location.hash.replace("#", "");
+    if (currentHash && document.getElementById(currentHash)) {
+      switchTab(currentHash, false);
+    }
   });
 
   // Speaking Part Switcher

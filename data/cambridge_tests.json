@@ -405,6 +405,23 @@
       "engnovate_url": "https://engnovate.com/ielts-speaking-tests/cambridge-ielts-19-academic-speaking-test-3/",
       "difficulty": "Academic Standard",
       "status": "Ready to practice"
+    },
+    {
+      "id": "cambridge-19-reading-1",
+      "book": "Cambridge 19",
+      "module": "Reading",
+      "test_number": 1,
+      "title": "Cambridge IELTS 19 Academic Reading Test 1",
+      "engnovate_url": "https://engnovate.com/ielts-reading-tests/cambridge-ielts-19-academic-reading-test-1/",
+      "difficulty": "Academic Standard",
+      "status": "Completed (Band 8.0)",
+      "score": "35/40",
+      "band": 8.0,
+      "passages": [
+        "Passage 1: How tennis rackets have changed (12/13)",
+        "Passage 2: The pirates of the ancient Mediterranean (11/13)",
+        "Passage 3: The persistence and peril of misinformation (12/14)"
+      ]
     }
   ]
 }

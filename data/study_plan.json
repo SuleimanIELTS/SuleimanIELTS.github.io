@@ -1,5 +1,5 @@
 {
-  "target_band_score": 8.0,
+  "target_band_score": 8.5,
   "component_targets": {
     "speaking": 8.5,
     "listening": 8.5,
@@ -38,15 +38,15 @@
     }
   ],
   "latest_diagnostic_result": {
-    "test_id": "cambridge-19-listening-1",
-    "test_title": "Cambridge IELTS 19 Academic Listening Test 1",
-    "date": "2026-11-02",
-    "score": 9.0,
-    "correct_count": 40,
+    "test_id": "cambridge-18-listening-4",
+    "test_title": "Cambridge IELTS 18 Academic Listening Test 4",
+    "date": "2026-11-05",
+    "score": 8.5,
+    "correct_count": 38,
     "total_count": 40,
-    "time_spent": "00:30:00",
+    "time_spent": "00:41:35",
     "target_score": 8.5,
-    "gap_analysis": "🏆 Perfect Score (Band 9.0, 40/40 correct)! 100% accuracy achieved across Part 1 park notes, Part 2 Farley House map, Part 3 food waste trends, and Part 4 Céide Fields archaeology."
+    "gap_analysis": "\ud83c\udfc6 Band 8.5 (38/40 correct, 95% accuracy)! Flawless 10/10 in Part 1, Part 2, and Part 4; solid 8/10 in Part 3 educational seminar."
   },
   "recent_writing_result": {
     "test_id": "cambridge-20-writing-4",
@@ -71,10 +71,33 @@
     "time_spent": "01:15:40",
     "target_score": 8.5,
     "passages": [
-      { "name": "Passage 1: How tennis rackets have changed", "score": "12/13" },
-      { "name": "Passage 2: The pirates of the ancient Mediterranean", "score": "11/13" },
-      { "name": "Passage 3: The persistence and peril of misinformation", "score": "12/14" }
+      {
+        "name": "Passage 1: How tennis rackets have changed",
+        "score": "12/13"
+      },
+      {
+        "name": "Passage 2: The pirates of the ancient Mediterranean",
+        "score": "11/13"
+      },
+      {
+        "name": "Passage 3: The persistence and peril of misinformation",
+        "score": "12/14"
+      }
     ],
-    "gap_analysis": "🎯 Band 8.0 (35/40 correct, 87.5% accuracy)! 100% on Passage 1 T/F/NG and Passage 3 multiple choice. Strong performance across scientific, historical, and cognitive psychology texts."
+    "gap_analysis": "\ud83c\udfaf Band 8.0 (35/40 correct, 87.5% accuracy)! 100% on Passage 1 T/F/NG and Passage 3 multiple choice. Strong performance across scientific, historical, and cognitive psychology texts."
+  },
+  "current_estimated_band": "8.0 - 8.5",
+  "recent_writing_task1_result": {
+    "test_id": "cambridge-20-writing-4-task1",
+    "test_title": "Cambridge IELTS 20 Academic Writing Test 4 Task 1",
+    "date": "2026-11-06",
+    "score": 8.5,
+    "task_response": 8.0,
+    "coherence_cohesion": 9.0,
+    "lexical_resource": 8.0,
+    "grammatical_range_accuracy": 9.0,
+    "grammar_mistakes": 0,
+    "topic": "Bamboo Fabric Manufacturing Process Diagram",
+    "gap_analysis": "\ud83c\udfc6 Outstanding Band 8.5! 0 grammar mistakes, Coherence & Cohesion 9.0, Grammatical Range 9.0. Complete mastery of sequential passive voice."
   }
 }

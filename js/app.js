@@ -168,19 +168,21 @@ function renderDashboard() {
 
   const total = appData.tests.length;
   const inProgress = appData.tests.filter((t) => t.status === "In Progress").length;
-  const completed = appData.tests.filter((t) => t.status === "Completed").length;
+  const completed = appData.tests.filter((t) => (t.status || "").includes("Completed")).length;
   const latestResult = appData.studyPlan.latest_diagnostic_result;
+  const latestWriting = appData.studyPlan.recent_writing_task1_result;
 
   statsContainer.innerHTML = `
     <div class="card">
       <div class="card-header">
         <span class="card-title">🎯 Hədəf Bal</span>
-        <span class="target-badge">${appData.studyPlan.target_band_score || 8.0}</span>
+        <span class="target-badge">${appData.studyPlan.target_band_score || 8.5}</span>
       </div>
       <p style="font-size: 0.85rem; color: var(--text-secondary);">
         Speaking <strong>${appData.studyPlan.component_targets?.speaking || 8.5}</strong> • 
         Listening <strong>${appData.studyPlan.component_targets?.listening || 8.5}</strong> • 
-        Reading <strong>${appData.studyPlan.component_targets?.reading || 8.5}</strong>
+        Reading <strong>${appData.studyPlan.component_targets?.reading || 8.5}</strong> • 
+        Writing <strong>${appData.studyPlan.component_targets?.writing || 7.5}</strong>
       </p>
     </div>
     <div class="card">
@@ -189,7 +191,7 @@ function renderDashboard() {
         <span class="status-badge status-in-progress">${completed} tamamlanıb</span>
       </div>
       <p style="font-size: 0.85rem; color: var(--text-secondary);">
-        Son işlənən: <strong>Cambridge 19 Listening Test 4</strong>
+        Son işlənən: <strong>${latestResult ? latestResult.test_title : 'Cambridge 18 Listening Test 4'}</strong>
       </p>
     </div>
     <div class="card">
@@ -204,17 +206,34 @@ function renderDashboard() {
     ${latestResult ? `
     <div class="card" style="grid-column: 1 / -1; border-left: 4px solid var(--accent-amber); background: linear-gradient(135deg, var(--bg-surface), var(--bg-subtle));">
       <div class="card-header">
-        <span class="card-title">📊 Son İmtahan Nəticəsi (Desktop Arxivindən Əlavə Olundu)</span>
-        <span class="target-badge" style="background: rgba(245, 158, 11, 0.15); color: var(--accent-amber); border-color: rgba(245, 158, 11, 0.3);">Toplanan Nəticə: Band ${latestResult.score}</span>
+        <span class="card-title">🎧 Son Listening İmtahan Nəticəsi (Desktop-dan Köçürüldü)</span>
+        <span class="target-badge" style="background: rgba(245, 158, 11, 0.15); color: var(--accent-amber); border-color: rgba(245, 158, 11, 0.3);">Nəticə: Band ${latestResult.score}</span>
       </div>
       <p style="font-size: 0.95rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.25rem;">
         ${latestResult.test_title}
       </p>
       <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.6rem;">
-        Doğru cavablar: <strong>${latestResult.correct_count} / ${latestResult.total_count}</strong> • İmtahan müddəti: <strong>${latestResult.time_spent}</strong> • Tarix: <strong>${latestResult.date}</strong>
+        Doğru cavablar: <strong>${latestResult.correct_count} / ${latestResult.total_count}</strong> (${((latestResult.correct_count / latestResult.total_count) * 100).toFixed(1)}%) • İmtahan müddəti: <strong>${latestResult.time_spent}</strong> • Tarix: <strong>${latestResult.date}</strong>
       </p>
       <div style="font-size: 0.8rem; color: var(--text-secondary); background: var(--bg-surface); padding: 0.6rem 0.85rem; border-radius: var(--radius-sm); border: 1px solid var(--border-light);">
         <strong>💡 Diaqnostik Təhlil & Band 8.5 Yol Xəritəsi:</strong> ${latestResult.gap_analysis}
+      </div>
+    </div>
+    ` : ''}
+    ${latestWriting ? `
+    <div class="card" style="grid-column: 1 / -1; border-left: 4px solid #10b981; background: linear-gradient(135deg, var(--bg-surface), var(--bg-subtle));">
+      <div class="card-header">
+        <span class="card-title">✍️ Son Writing Task 1 Nəticəsi (Process Diagram)</span>
+        <span class="target-badge" style="background: rgba(16, 185, 129, 0.15); color: #10b981; border-color: rgba(16, 185, 129, 0.3);">Nəticə: Band ${latestWriting.score}</span>
+      </div>
+      <p style="font-size: 0.95rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.25rem;">
+        ${latestWriting.test_title} — ${latestWriting.topic}
+      </p>
+      <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.6rem;">
+        Task Response: <strong>${latestWriting.task_response}</strong> • Coherence: <strong>${latestWriting.coherence_cohesion}</strong> • Lexical: <strong>${latestWriting.lexical_resource}</strong> • Grammar: <strong>${latestWriting.grammatical_range_accuracy}</strong> (0 qrammatik səhv!)
+      </p>
+      <div style="font-size: 0.8rem; color: var(--text-secondary); background: var(--bg-surface); padding: 0.6rem 0.85rem; border-radius: var(--radius-sm); border: 1px solid var(--border-light);">
+        <strong>💡 Diaqnostik Təhlil:</strong> ${latestWriting.gap_analysis}
       </div>
     </div>
     ` : ''}

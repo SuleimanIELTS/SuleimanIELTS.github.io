@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-26",
+  "last_updated": "2026-11-06",
   "total_books": 7,
   "series": "Cambridge IELTS Academic Series (15 - 21)",
   "platform_companion": "Engnovate",
@@ -21,20 +21,20 @@
               "id": "c21-s3-p1-q1",
               "number": 1,
               "question": "When you go shopping, do you usually pay for things by cash or by card?",
-              "model_answer_band_8": "To be honest, I almost always pay by card or using my phone. It’s just so much more convenient and faster, especially with contactless payment and Apple Pay. Plus, it really helps me keep track of my daily expenses through my mobile banking app, so I rarely carry loose cash with me these days.",
-              "translation_az": "Düzünü desəm, demək olar ki, həmişə kartla və ya telefonla ödəyirəm. Xüsusilə təmassız ödəniş və Apple Pay ilə bu, daha rahat və sürətlidir. Üstəlik, mobil bank tətbiqi vasitəsilə gündəlik xərclərimi izləməyə çox kömək edir, ona görə də bu günlərdə üzərimdə nadir hallarda nağd pul gəzdirirəm.",
+              "model_answer_band_8": "To be honest, I almost always pay by card or using my phone. It\u2019s just so much more convenient and faster, especially with contactless payment and Apple Pay. Plus, it really helps me keep track of my daily expenses through my mobile banking app, so I rarely carry loose cash with me these days.",
+              "translation_az": "D\u00fcz\u00fcn\u00fc des\u0259m, dem\u0259k olar ki, h\u0259mi\u015f\u0259 kartla v\u0259 ya telefonla \u00f6d\u0259yir\u0259m. X\u00fcsusil\u0259 t\u0259mass\u0131z \u00f6d\u0259ni\u015f v\u0259 Apple Pay il\u0259 bu, daha rahat v\u0259 s\u00fcr\u0259tlidir. \u00dcst\u0259lik, mobil bank t\u0259tbiqi vasit\u0259sil\u0259 g\u00fcnd\u0259lik x\u0259rcl\u0259rimi izl\u0259m\u0259y\u0259 \u00e7ox k\u00f6m\u0259k edir, ona g\u00f6r\u0259 d\u0259 bu g\u00fcnl\u0259rd\u0259 \u00fcz\u0259rimd\u0259 nadir hallarda na\u011fd pul g\u0259zdirir\u0259m.",
               "key_vocab": [
                 {
                   "word": "Contactless payment",
-                  "translation": "Təmassız ödəniş"
+                  "translation": "T\u0259mass\u0131z \u00f6d\u0259ni\u015f"
                 },
                 {
                   "word": "Keep track of expenses",
-                  "translation": "Xərcləri izləmək"
+                  "translation": "X\u0259rcl\u0259ri izl\u0259m\u0259k"
                 },
                 {
                   "word": "Loose cash",
-                  "translation": "Xırda nağd pul"
+                  "translation": "X\u0131rda na\u011fd pul"
                 }
               ]
             },
@@ -43,19 +43,19 @@
               "number": 2,
               "question": "Are you generally careful about how much money you spend?",
               "model_answer_band_8": "Yes, I would say I'm quite mindful of my spending habits. I always try to live within my means and set aside a portion of my income for savings or unexpected expenses. In fact, I usually make a monthly budget and track my expenses on my phone to avoid any impulse buying.",
-              "translation_az": "Bəli, deyərdim ki, xərcləmə vərdişlərimə qarşı kifayət qədər diqqətliyəm. Həmişə imkanım daxilində yaşamağa və gəlirimin bir hissəsini qənaət və ya gözlənilməz xərclər üçün kənara qoymağa çalışıram. Əslində, impulsiv (plansız) alış-verişlərdən qaçmaq üçün adətən aylıq büdcə tərtib edir və xərclərimi telefonumda izləyirəm.",
+              "translation_az": "B\u0259li, dey\u0259rdim ki, x\u0259rcl\u0259m\u0259 v\u0259rdi\u015fl\u0259rim\u0259 qar\u015f\u0131 kifay\u0259t q\u0259d\u0259r diqq\u0259tliy\u0259m. H\u0259mi\u015f\u0259 imkan\u0131m daxilind\u0259 ya\u015fama\u011fa v\u0259 g\u0259lirimin bir hiss\u0259sini q\u0259na\u0259t v\u0259 ya g\u00f6zl\u0259nilm\u0259z x\u0259rcl\u0259r \u00fc\u00e7\u00fcn k\u0259nara qoyma\u011fa \u00e7al\u0131\u015f\u0131ram. \u018fslind\u0259, impulsiv (plans\u0131z) al\u0131\u015f-veri\u015fl\u0259rd\u0259n qa\u00e7maq \u00fc\u00e7\u00fcn ad\u0259t\u0259n ayl\u0131q b\u00fcdc\u0259 t\u0259rtib edir v\u0259 x\u0259rcl\u0259rimi telefonumda izl\u0259yir\u0259m.",
               "key_vocab": [
                 {
                   "word": "Mindful of spending",
-                  "translation": "Xərcləməyə qarşı diqqətli"
+                  "translation": "X\u0259rcl\u0259m\u0259y\u0259 qar\u015f\u0131 diqq\u0259tli"
                 },
                 {
                   "word": "Live within one's means",
-                  "translation": "Gəlirinə uyğun yaşamaq"
+                  "translation": "G\u0259lirin\u0259 uy\u011fun ya\u015famaq"
                 },
                 {
                   "word": "Impulse buying",
-                  "translation": "Plansız/anidən alış-veriş"
+                  "translation": "Plans\u0131z/anid\u0259n al\u0131\u015f-veri\u015f"
                 }
               ]
             },
@@ -63,20 +63,20 @@
               "id": "c21-s3-p1-q3",
               "number": 3,
               "question": "Have you ever spent money on something you didn't need?",
-              "model_answer_band_8": "Yes, absolutely. Like most people, I’ve fallen into the trap of impulse buying a few times. I remember purchasing a rather expensive jacket on sale a while ago just because it had a huge discount, but I ended up wearing it only once or twice. It’s basically just collecting dust in my wardrobe now, which was definitely a waste of money.",
-              "translation_az": "Bəli, mütləq. Çox insan kimi, mən də bir neçə dəfə impulsiv (plansız) alış-veriş tələsinə düşmüşəm. Xatırlayıram ki, bir müddət əvvəl sırf böyük endirimdə olduğu üçün kifayət qədər bahalı bir gödəkçə almışdım, amma sonda onu cəmi bir-iki dəfə geyindim. İndi qarderobumda sadəcə toz basır ki, bu da birmənalı olaraq pul israfı idi.",
+              "model_answer_band_8": "Yes, absolutely. Like most people, I\u2019ve fallen into the trap of impulse buying a few times. I remember purchasing a rather expensive jacket on sale a while ago just because it had a huge discount, but I ended up wearing it only once or twice. It\u2019s basically just collecting dust in my wardrobe now, which was definitely a waste of money.",
+              "translation_az": "B\u0259li, m\u00fctl\u0259q. \u00c7ox insan kimi, m\u0259n d\u0259 bir ne\u00e7\u0259 d\u0259f\u0259 impulsiv (plans\u0131z) al\u0131\u015f-veri\u015f t\u0259l\u0259sin\u0259 d\u00fc\u015fm\u00fc\u015f\u0259m. Xat\u0131rlay\u0131ram ki, bir m\u00fcdd\u0259t \u0259vv\u0259l s\u0131rf b\u00f6y\u00fck endirimd\u0259 oldu\u011fu \u00fc\u00e7\u00fcn kifay\u0259t q\u0259d\u0259r bahal\u0131 bir g\u00f6d\u0259k\u00e7\u0259 alm\u0131\u015fd\u0131m, amma sonda onu c\u0259mi bir-iki d\u0259f\u0259 geyindim. \u0130ndi qarderobumda sad\u0259c\u0259 toz bas\u0131r ki, bu da birm\u0259nal\u0131 olaraq pul israf\u0131 idi.",
               "key_vocab": [
                 {
                   "word": "Fallen into the trap of...",
-                  "translation": "...tələsinə düşmək"
+                  "translation": "...t\u0259l\u0259sin\u0259 d\u00fc\u015fm\u0259k"
                 },
                 {
                   "word": "Collecting dust",
-                  "translation": "İstifadəsiz qalıb toz basmaq"
+                  "translation": "\u0130stifad\u0259siz qal\u0131b toz basmaq"
                 },
                 {
-                  "word": "Buyer’s remorse",
-                  "translation": "Aldıqdan sonrakı peşmanlıq"
+                  "word": "Buyer\u2019s remorse",
+                  "translation": "Ald\u0131qdan sonrak\u0131 pe\u015fmanl\u0131q"
                 }
               ]
             },
@@ -85,19 +85,19 @@
               "number": 4,
               "question": "How important is it to you to save money for the future?",
               "model_answer_band_8": "I believe it's absolutely crucial. Having a financial safety net gives me immense peace of mind because you never know what unforeseen circumstances or emergencies might arise. It also allows me to be independent and prepared for any sudden changes without having to rely on others.",
-              "translation_az": "Düşünürəm ki, bu, tamamilə həyati əhəmiyyət kəsb edir. Maliyyə təhlükəsizliyi yastığının olması mənə böyük daxili rahatlıq verir, çünki hansı gözlənilməz vəziyyətlərin və ya fövqəladə halların yarana biləcəyini heç vaxt bilmək olmur. Bu, həmçinin başqalarından asılı olmadan müstəqil olmağa və qəfil dəyişikliklərə hazır olmağa imkan verir.",
+              "translation_az": "D\u00fc\u015f\u00fcn\u00fcr\u0259m ki, bu, tamamil\u0259 h\u0259yati \u0259h\u0259miyy\u0259t k\u0259sb edir. Maliyy\u0259 t\u0259hl\u00fck\u0259sizliyi yast\u0131\u011f\u0131n\u0131n olmas\u0131 m\u0259n\u0259 b\u00f6y\u00fck daxili rahatl\u0131q verir, \u00e7\u00fcnki hans\u0131 g\u00f6zl\u0259nilm\u0259z v\u0259ziyy\u0259tl\u0259rin v\u0259 ya f\u00f6vq\u0259lad\u0259 hallar\u0131n yarana bil\u0259c\u0259yini he\u00e7 vaxt bilm\u0259k olmur. Bu, h\u0259m\u00e7inin ba\u015fqalar\u0131ndan as\u0131l\u0131 olmadan m\u00fcst\u0259qil olma\u011fa v\u0259 q\u0259fil d\u0259yi\u015fiklikl\u0259r\u0259 haz\u0131r olma\u011fa imkan verir.",
               "key_vocab": [
                 {
                   "word": "Financial safety net",
-                  "translation": "Maliyyə təhlükəsizlik zəmanəti"
+                  "translation": "Maliyy\u0259 t\u0259hl\u00fck\u0259sizlik z\u0259man\u0259ti"
                 },
                 {
                   "word": "Peace of mind",
-                  "translation": "Daxili rahatlıq / arxayınlıq"
+                  "translation": "Daxili rahatl\u0131q / arxay\u0131nl\u0131q"
                 },
                 {
                   "word": "Unforeseen circumstances",
-                  "translation": "Gözlənilməz hallar"
+                  "translation": "G\u00f6zl\u0259nilm\u0259z hallar"
                 }
               ]
             }
@@ -113,28 +113,28 @@
               "what you saw in this garden/park",
               "and explain why you think this garden/park is interesting."
             ],
-            "model_speech_band_8": "I’d like to talk about a fascinating place I visited recently, which is the Central Botanical Garden located right on the outskirts of our city. As for how big it is, the park is truly sprawling, spanning over several dozen hectares. Because of its vast size, it never feels overcrowded, and you could easily spend an entire afternoon wandering around without covering the whole area. When it comes to what I saw there, it was an absolute paradise for nature lovers. The garden is divided into several themed sections. There are vibrant flowerbeds, towering century-old trees, and well-maintained greenhouses housing rare, exotic flora from different climate zones. One particular highlight for me was a charming traditional Japanese garden corner, complete with wooden bridges, delicate cherry blossoms, and a tranquil pond filled with colorful koi fish. Alongside that, there were scenic winding cobblestone pathways and plenty of shaded benches where people were reading or simply enjoying the fresh air. What makes this park exceptionally interesting to me is the sheer contrast it offers. Stepping into this garden feels like entering a tranquil green oasis that provides an instant escape from the hustle and bustle of the city. It isn't just a regular recreational park with cafes and loud music; instead, it combines botanical education, conservation, and pure serenity. Walking among diverse plant species while listening to birds chirping completely rejuvenated my mind, which is why it left such a lasting impression on me.",
-            "translation_az": "Son vaxtlar ziyarət etdiyim valehedici bir məkandan — şəhərimizin kənarında yerləşən Mərkəzi Nəbatat Bağında danışmaq istərdim. Nə qədər böyük olmasına gəldikdə, park həqiqətən çox genişdir, bir neçə on hektar ərazini əhatə edir. Nəhəng ölçüsü sayəsində heç vaxt həddindən artıq izdihamlı hiss olunmur və bütün ərazini gəzib bitirmədən bütün bir günortanı asanlıqla orada gəzintiyə sərf edə bilərsiniz. Orada nə gördüyümə gəldikdə isə, bura təbiətsevərlər üçün əsl cənnət idi. Bağ bir neçə tematik bölməyə ayrılıb. Burada əlvan gül ləkləri, uca əsrlik ağaclar və müxtəlif iqlim zonalarından gətirilmiş nadir, ekzotik bitkilərin saxlandığı səliqəli istixanalar var. Mənim üçün ən diqqətçəkən məqamlardan biri taxta körpüləri, zərif albalı çiçəkləri və rəngarəng koi balıqları ilə dolu sakit gölməçəsi olan ənənəvi Yapon bağı guşəsi oldu. Bununla yanaşı, mənzərəli dolanbac daş cığırlar və insanların kitab oxuduğu və ya sadəcə təmiz havadan zövq aldığı çoxlu kölgəlik skamyalar var idi. Bu parkı mənim üçün son dərəcə maraqlı edən şey onun təqdim etdiyi böyük təzaddır (kontrastdır). Bu bağa daxil olmaq şəhərin səs-küyündən dərhal xilas olmağı təmin edən sakit yaşıl vahaya addımlamaq kimidir. Bu, sadəcə kafeləri və yüksək musiqisi olan adi bir istirahət parkı deyil; əksinə, botanika maarifləndirməsini, qorunmanı və təmiz sakitliyi özündə birləşdirir. Quşların cəh-cəhini dinləyərək müxtəlif bitki növləri arasında gəzmək fikrimi tamamilə təravətləndirdi, buna görə də məndə bu qədər dərin və unudulmaz təəssürat buraxdı.",
+            "model_speech_band_8": "I\u2019d like to talk about a fascinating place I visited recently, which is the Central Botanical Garden located right on the outskirts of our city. As for how big it is, the park is truly sprawling, spanning over several dozen hectares. Because of its vast size, it never feels overcrowded, and you could easily spend an entire afternoon wandering around without covering the whole area. When it comes to what I saw there, it was an absolute paradise for nature lovers. The garden is divided into several themed sections. There are vibrant flowerbeds, towering century-old trees, and well-maintained greenhouses housing rare, exotic flora from different climate zones. One particular highlight for me was a charming traditional Japanese garden corner, complete with wooden bridges, delicate cherry blossoms, and a tranquil pond filled with colorful koi fish. Alongside that, there were scenic winding cobblestone pathways and plenty of shaded benches where people were reading or simply enjoying the fresh air. What makes this park exceptionally interesting to me is the sheer contrast it offers. Stepping into this garden feels like entering a tranquil green oasis that provides an instant escape from the hustle and bustle of the city. It isn't just a regular recreational park with cafes and loud music; instead, it combines botanical education, conservation, and pure serenity. Walking among diverse plant species while listening to birds chirping completely rejuvenated my mind, which is why it left such a lasting impression on me.",
+            "translation_az": "Son vaxtlar ziyar\u0259t etdiyim valehedici bir m\u0259kandan \u2014 \u015f\u0259h\u0259rimizin k\u0259nar\u0131nda yerl\u0259\u015f\u0259n M\u0259rk\u0259zi N\u0259batat Ba\u011f\u0131nda dan\u0131\u015fmaq ist\u0259rdim. N\u0259 q\u0259d\u0259r b\u00f6y\u00fck olmas\u0131na g\u0259ldikd\u0259, park h\u0259qiq\u0259t\u0259n \u00e7ox geni\u015fdir, bir ne\u00e7\u0259 on hektar \u0259razini \u0259hat\u0259 edir. N\u0259h\u0259ng \u00f6l\u00e7\u00fcs\u00fc say\u0259sind\u0259 he\u00e7 vaxt h\u0259ddind\u0259n art\u0131q izdihaml\u0131 hiss olunmur v\u0259 b\u00fct\u00fcn \u0259razini g\u0259zib bitirm\u0259d\u0259n b\u00fct\u00fcn bir g\u00fcnortan\u0131 asanl\u0131qla orada g\u0259zintiy\u0259 s\u0259rf ed\u0259 bil\u0259rsiniz. Orada n\u0259 g\u00f6rd\u00fcy\u00fcm\u0259 g\u0259ldikd\u0259 is\u0259, bura t\u0259bi\u0259tsev\u0259rl\u0259r \u00fc\u00e7\u00fcn \u0259sl c\u0259nn\u0259t idi. Ba\u011f bir ne\u00e7\u0259 tematik b\u00f6lm\u0259y\u0259 ayr\u0131l\u0131b. Burada \u0259lvan g\u00fcl l\u0259kl\u0259ri, uca \u0259srlik a\u011faclar v\u0259 m\u00fcxt\u0259lif iqlim zonalar\u0131ndan g\u0259tirilmi\u015f nadir, ekzotik bitkil\u0259rin saxland\u0131\u011f\u0131 s\u0259liq\u0259li istixanalar var. M\u0259nim \u00fc\u00e7\u00fcn \u0259n diqq\u0259t\u00e7\u0259k\u0259n m\u0259qamlardan biri taxta k\u00f6rp\u00fcl\u0259ri, z\u0259rif albal\u0131 \u00e7i\u00e7\u0259kl\u0259ri v\u0259 r\u0259ngar\u0259ng koi bal\u0131qlar\u0131 il\u0259 dolu sakit g\u00f6lm\u0259\u00e7\u0259si olan \u0259n\u0259n\u0259vi Yapon ba\u011f\u0131 gu\u015f\u0259si oldu. Bununla yana\u015f\u0131, m\u0259nz\u0259r\u0259li dolanbac da\u015f c\u0131\u011f\u0131rlar v\u0259 insanlar\u0131n kitab oxudu\u011fu v\u0259 ya sad\u0259c\u0259 t\u0259miz havadan z\u00f6vq ald\u0131\u011f\u0131 \u00e7oxlu k\u00f6lg\u0259lik skamyalar var idi. Bu park\u0131 m\u0259nim \u00fc\u00e7\u00fcn son d\u0259r\u0259c\u0259 maraql\u0131 ed\u0259n \u015fey onun t\u0259qdim etdiyi b\u00f6y\u00fck t\u0259zadd\u0131r (kontrastd\u0131r). Bu ba\u011fa daxil olmaq \u015f\u0259h\u0259rin s\u0259s-k\u00fcy\u00fcnd\u0259n d\u0259rhal xilas olma\u011f\u0131 t\u0259min ed\u0259n sakit ya\u015f\u0131l vahaya add\u0131mlamaq kimidir. Bu, sad\u0259c\u0259 kafel\u0259ri v\u0259 y\u00fcks\u0259k musiqisi olan adi bir istirah\u0259t park\u0131 deyil; \u0259ksin\u0259, botanika maarifl\u0259ndirm\u0259sini, qorunman\u0131 v\u0259 t\u0259miz sakitliyi \u00f6z\u00fcnd\u0259 birl\u0259\u015fdirir. Qu\u015flar\u0131n c\u0259h-c\u0259hini dinl\u0259y\u0259r\u0259k m\u00fcxt\u0259lif bitki n\u00f6vl\u0259ri aras\u0131nda g\u0259zm\u0259k fikrimi tamamil\u0259 t\u0259rav\u0259tl\u0259ndirdi, buna g\u00f6r\u0259 d\u0259 m\u0259nd\u0259 bu q\u0259d\u0259r d\u0259rin v\u0259 unudulmaz t\u0259\u0259ss\u00fcrat buraxd\u0131.",
             "key_vocab": [
               {
                 "word": "Sprawling",
-                "translation": "Geniş əraziyə yayılan / nəhəng"
+                "translation": "Geni\u015f \u0259raziy\u0259 yay\u0131lan / n\u0259h\u0259ng"
               },
               {
                 "word": "Tranquil green oasis",
-                "translation": "Sakit yaşıl vaha"
+                "translation": "Sakit ya\u015f\u0131l vaha"
               },
               {
                 "word": "Hustle and bustle",
-                "translation": "Şəhər səs-küyü və basabası"
+                "translation": "\u015e\u0259h\u0259r s\u0259s-k\u00fcy\u00fc v\u0259 basabas\u0131"
               },
               {
                 "word": "Rejuvenate one's mind",
-                "translation": "Əhvalı/zehni təravətləndirmək"
+                "translation": "\u018fhval\u0131/zehni t\u0259rav\u0259tl\u0259ndirm\u0259k"
               },
               {
                 "word": "Leave a lasting impression",
-                "translation": "Qalıcı təəssürat buraxmaq"
+                "translation": "Qal\u0131c\u0131 t\u0259\u0259ss\u00fcrat buraxmaq"
               }
             ]
           }
@@ -146,19 +146,19 @@
               "number": 1,
               "question": "Do you think cities should have more public parks?",
               "model_answer_band_8": "Without a doubt. With rapid urbanization and high-rise developments, green spaces have become indispensable. Not only do public parks improve urban air quality and reduce temperature, but they also serve as vital social hubs where residents can unwind, exercise, and socialize. In essence, they are essential for both physical well-being and mental health.",
-              "translation_az": "Şübhəsiz. Sürətli urbanizasiya və göydələnlərin artması ilə yaşıl zonalar əvəzolunmaz hala gəlib. İctimai parklar təkcə şəhərin hava keyfiyyətini yaxşılaşdırmır və temperaturu azaltmır, həm də sakinlərin dincələ, idman edə və ünsiyyət qura biləcəyi mühüm sosial mərkəz rolunu oynayır. Mahiyyət etibarilə onlar həm fiziki, həm də zehni sağlamlıq üçün vacibdir."
+              "translation_az": "\u015e\u00fcbh\u0259siz. S\u00fcr\u0259tli urbanizasiya v\u0259 g\u00f6yd\u0259l\u0259nl\u0259rin artmas\u0131 il\u0259 ya\u015f\u0131l zonalar \u0259v\u0259zolunmaz hala g\u0259lib. \u0130ctimai parklar t\u0259kc\u0259 \u015f\u0259h\u0259rin hava keyfiyy\u0259tini yax\u015f\u0131la\u015fd\u0131rm\u0131r v\u0259 temperaturu azaltm\u0131r, h\u0259m d\u0259 sakinl\u0259rin dinc\u0259l\u0259, idman ed\u0259 v\u0259 \u00fcnsiyy\u0259t qura bil\u0259c\u0259yi m\u00fch\u00fcm sosial m\u0259rk\u0259z rolunu oynay\u0131r. Mahiyy\u0259t etibaril\u0259 onlar h\u0259m fiziki, h\u0259m d\u0259 zehni sa\u011flaml\u0131q \u00fc\u00e7\u00fcn vacibdir."
             },
             {
               "number": 2,
               "question": "What facilities should a good public park provide for visitors?",
               "model_answer_band_8": "In my view, a well-designed park should cater to people of all demographics. It ought to feature well-paved running tracks, safe play zones for children, clean public restrooms, and ample seating beneath natural shade. Furthermore, introducing open-air workout equipment and designated pet-friendly areas can significantly enhance the park's utility.",
-              "translation_az": "Fikrimcə, yaxşı dizayn edilmiş park bütün yaş qruplarına xidmət etməlidir. Burada yaxşı döşənmiş qaçış yolları, uşaqlar üçün təhlükəsiz oyun zonaları, təmiz ictimai sanitar qovşaqlar və təbii kölgəlikdə kifayət qədər skamyalar olmalıdır. Bundan əlavə, açıq hava idman avadanlıqlarının və ev heyvanları üçün xüsusi sahələrin yaradılması parkın faydalılığını əhəmiyyətli dərəcədə artıra bilər."
+              "translation_az": "Fikrimc\u0259, yax\u015f\u0131 dizayn edilmi\u015f park b\u00fct\u00fcn ya\u015f qruplar\u0131na xidm\u0259t etm\u0259lidir. Burada yax\u015f\u0131 d\u00f6\u015f\u0259nmi\u015f qa\u00e7\u0131\u015f yollar\u0131, u\u015faqlar \u00fc\u00e7\u00fcn t\u0259hl\u00fck\u0259siz oyun zonalar\u0131, t\u0259miz ictimai sanitar qov\u015faqlar v\u0259 t\u0259bii k\u00f6lg\u0259likd\u0259 kifay\u0259t q\u0259d\u0259r skamyalar olmal\u0131d\u0131r. Bundan \u0259lav\u0259, a\u00e7\u0131q hava idman avadanl\u0131qlar\u0131n\u0131n v\u0259 ev heyvanlar\u0131 \u00fc\u00e7\u00fcn x\u00fcsusi sah\u0259l\u0259rin yarad\u0131lmas\u0131 park\u0131n faydal\u0131l\u0131\u011f\u0131n\u0131 \u0259h\u0259miyy\u0259tli d\u0259r\u0259c\u0259d\u0259 art\u0131ra bil\u0259r."
             },
             {
               "number": 3,
               "question": "Why is it important for children to spend time in nature rather than indoors?",
               "model_answer_band_8": "Spending time outdoors fosters both physical and cognitive development in youngsters. Being in a natural setting encourages active physical play, which mitigates the risk of childhood obesity and nearsightedness. Moreover, interacting with plants and wildlife stimulates their curiosity and imagination far more than staring at digital screens all day.",
-              "translation_az": "Açıq havada vaxt keçirmək gənclərdə həm fiziki, həm də idrak (koqnitiv) inkişafı təşviq edir. Təbii mühitdə olmaq uşaqlıqda piylənmə və yaxındangörmə riskini azaldan fəal fiziki oyunları təşviq edir. Üstəlik, bitkilər və vəhşi təbiətlə təmasda olmaq onların marağını və təxəyyülünü gün boyu rəqəmsal ekranlara baxmaqdan qat-qat çox stimullaşdırır."
+              "translation_az": "A\u00e7\u0131q havada vaxt ke\u00e7irm\u0259k g\u0259ncl\u0259rd\u0259 h\u0259m fiziki, h\u0259m d\u0259 idrak (koqnitiv) inki\u015faf\u0131 t\u0259\u015fviq edir. T\u0259bii m\u00fchitd\u0259 olmaq u\u015faql\u0131qda piyl\u0259nm\u0259 v\u0259 yax\u0131ndang\u00f6rm\u0259 riskini azaldan f\u0259al fiziki oyunlar\u0131 t\u0259\u015fviq edir. \u00dcst\u0259lik, bitkil\u0259r v\u0259 v\u0259h\u015fi t\u0259bi\u0259tl\u0259 t\u0259masda olmaq onlar\u0131n mara\u011f\u0131n\u0131 v\u0259 t\u0259x\u0259yy\u00fcl\u00fcn\u00fc g\u00fcn boyu r\u0259q\u0259msal ekranlara baxmaqdan qat-qat \u00e7ox stimulla\u015fd\u0131r\u0131r."
             }
           ]
         }
@@ -422,6 +422,82 @@
         "Passage 2: The pirates of the ancient Mediterranean (11/13)",
         "Passage 3: The persistence and peril of misinformation (12/14)"
       ]
+    },
+    {
+      "id": "cambridge-18-listening-4",
+      "book": "Cambridge 18",
+      "module": "Listening",
+      "test_number": 4,
+      "title": "Cambridge IELTS 18 Academic Listening Test 4",
+      "engnovate_url": "https://engnovate.com/ielts-listening-tests/cambridge-ielts-18-academic-listening-test-4/",
+      "difficulty": "Academic Standard",
+      "status": "Completed (Band 8.5)",
+      "attempt_date": "2026-11-05",
+      "time_spent": "00:41:35",
+      "score": 8.5,
+      "correct_answers": 38,
+      "total_questions": 40,
+      "target_score": 8.5,
+      "parts": {
+        "part_1": {
+          "topic": "Medical Receptionist Job Details (Julie Davison & Greg Preston)",
+          "score_part": "10 / 10",
+          "accuracy": "100%"
+        },
+        "part_2": {
+          "topic": "Museum of Farming Life Visitor Orientation & Area Matching",
+          "score_part": "10 / 10",
+          "accuracy": "100%"
+        },
+        "part_3": {
+          "topic": "Origami in Early Education & Mathematics (Lia & Seb)",
+          "score_part": "8 / 10",
+          "accuracy": "80%"
+        },
+        "part_4": {
+          "topic": "Victor Hugo and Hauteville House, Guernsey (Academic Lecture)",
+          "score_part": "10 / 10",
+          "accuracy": "100%"
+        }
+      }
+    },
+    {
+      "id": "cambridge-20-writing-4-task1",
+      "book": "Cambridge 20",
+      "module": "Writing Task 1",
+      "test_number": 4,
+      "title": "Cambridge IELTS 20 Academic Writing Test 4 Task 1",
+      "engnovate_url": "https://engnovate.com/ielts-writing-tests/cambridge-ielts-20-academic-writing-test-4/",
+      "difficulty": "Academic Standard",
+      "status": "Completed (Band 8.5)",
+      "attempt_date": "2026-11-06",
+      "time_spent": "00:13:09",
+      "score": 8.5,
+      "task_response": 8.0,
+      "coherence_cohesion": 9.0,
+      "lexical_resource": 8.0,
+      "grammatical_range_accuracy": 9.0,
+      "grammar_mistakes": 0,
+      "topic": "Bamboo Fabric Manufacturing (9-Step Process Diagram)",
+      "evolution": "Draft Band 5.5 (25 grammar mistakes) -> Polished Band 8.5 (0 mistakes, 9.0 CC & GRA)"
+    },
+    {
+      "id": "cambridge-20-writing-4",
+      "book": "Cambridge 20",
+      "module": "Writing Task 2",
+      "test_number": 4,
+      "title": "Cambridge IELTS 20 Academic Writing Test 4 Task 2",
+      "engnovate_url": "https://engnovate.com/ielts-writing-tests/cambridge-ielts-20-academic-writing-test-4/",
+      "difficulty": "Academic Standard",
+      "status": "Completed (Band 7.5)",
+      "attempt_date": "2026-11-01",
+      "score": 7.5,
+      "task_response": 7.0,
+      "coherence_cohesion": 8.0,
+      "lexical_resource": 7.0,
+      "grammatical_range_accuracy": 8.0,
+      "grammar_mistakes": 0,
+      "topic": "Global Fashion Trends & Societal Influence (Two-Part Essay)"
     }
   ]
 }

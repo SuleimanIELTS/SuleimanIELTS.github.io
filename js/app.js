@@ -171,18 +171,19 @@ function renderDashboard() {
   const completed = appData.tests.filter((t) => (t.status || "").includes("Completed")).length;
   const latestResult = appData.studyPlan.latest_diagnostic_result;
   const latestWriting = appData.studyPlan.recent_writing_task1_result;
+  const latestSpeaking = appData.studyPlan.recent_speaking_result;
 
   statsContainer.innerHTML = `
     <div class="card">
       <div class="card-header">
         <span class="card-title">🎯 Hədəf Bal</span>
-        <span class="target-badge">${appData.studyPlan.target_band_score || 8.5}</span>
+        <span class="target-badge">${appData.studyPlan.target_band_score || 8.0}</span>
       </div>
       <p style="font-size: 0.85rem; color: var(--text-secondary);">
-        Speaking <strong>${appData.studyPlan.component_targets?.speaking || 8.5}</strong> • 
+        Speaking <strong>${appData.studyPlan.component_targets?.speaking || 7.5}</strong> • 
         Listening <strong>${appData.studyPlan.component_targets?.listening || 8.5}</strong> • 
         Reading <strong>${appData.studyPlan.component_targets?.reading || 8.5}</strong> • 
-        Writing <strong>${appData.studyPlan.component_targets?.writing || 7.5}</strong>
+        Writing <strong>${appData.studyPlan.component_targets?.writing || 8.0}</strong>
       </p>
     </div>
     <div class="card">
@@ -191,7 +192,7 @@ function renderDashboard() {
         <span class="status-badge status-in-progress">${completed} tamamlanıb</span>
       </div>
       <p style="font-size: 0.85rem; color: var(--text-secondary);">
-        Son işlənən: <strong>${latestResult ? latestResult.test_title : 'Cambridge 18 Listening Test 4'}</strong>
+        Son işlənən: <strong>${latestSpeaking ? latestSpeaking.test_title : (latestResult ? latestResult.test_title : 'Cambridge 21 Speaking Test 1')}</strong>
       </p>
     </div>
     <div class="card">
@@ -203,10 +204,27 @@ function renderDashboard() {
         Keş və limit maneəsi olmadan birbaşa sınaqlara keçid
       </p>
     </div>
+    ${latestSpeaking ? `
+    <div class="card" style="grid-column: 1 / -1; border-left: 4px solid #6366f1; background: linear-gradient(135deg, var(--bg-surface), var(--bg-subtle));">
+      <div class="card-header">
+        <span class="card-title">🎙️ Son Speaking Diaqnostik Nəticəsi (Desktop-dan Köçürüldü)</span>
+        <span class="target-badge" style="background: rgba(99, 102, 241, 0.15); color: #6366f1; border-color: rgba(99, 102, 241, 0.3);">İlkin Nəticə: Band ${latestSpeaking.score}</span>
+      </div>
+      <p style="font-size: 0.95rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.25rem;">
+        ${latestSpeaking.test_title} — ${latestSpeaking.topic}
+      </p>
+      <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.6rem;">
+        Pronunciation: <strong>${latestSpeaking.pronunciation}</strong> • Task Response: <strong>${latestSpeaking.task_response}</strong> • Fluency: <strong>${latestSpeaking.fluency_coherence}</strong> • Lexical: <strong>${latestSpeaking.lexical_resource}</strong> • Grammar: <strong>${latestSpeaking.grammatical_range_accuracy}</strong> • Tarix: <strong>${latestSpeaking.date}</strong>
+      </p>
+      <div style="font-size: 0.8rem; color: var(--text-secondary); background: var(--bg-surface); padding: 0.6rem 0.85rem; border-radius: var(--radius-sm); border: 1px solid var(--border-light);">
+        <strong>💡 Diaqnostik Təhlil & Band 7.5+ Sıçrayış Strategiyası:</strong> ${latestSpeaking.gap_analysis}
+      </div>
+    </div>
+    ` : ''}
     ${latestResult ? `
     <div class="card" style="grid-column: 1 / -1; border-left: 4px solid var(--accent-amber); background: linear-gradient(135deg, var(--bg-surface), var(--bg-subtle));">
       <div class="card-header">
-        <span class="card-title">🎧 Son Listening İmtahan Nəticəsi (Desktop-dan Köçürüldü)</span>
+        <span class="card-title">🎧 Son Listening İmtahan Nəticəsi</span>
         <span class="target-badge" style="background: rgba(245, 158, 11, 0.15); color: var(--accent-amber); border-color: rgba(245, 158, 11, 0.3);">Nəticə: Band ${latestResult.score}</span>
       </div>
       <p style="font-size: 0.95rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.25rem;">

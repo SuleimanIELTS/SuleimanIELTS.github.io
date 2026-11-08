@@ -1,7 +1,7 @@
 {
   "target_band_score": 8.5,
   "component_targets": {
-    "speaking": 8.5,
+    "speaking": 7.5,
     "listening": 8.5,
     "reading": 8.5,
     "writing": 7.5
@@ -86,7 +86,7 @@
     ],
     "gap_analysis": "\ud83c\udfaf Band 8.0 (35/40 correct, 87.5% accuracy)! 100% on Passage 1 T/F/NG and Passage 3 multiple choice. Strong performance across scientific, historical, and cognitive psychology texts."
   },
-  "current_estimated_band": "8.0 - 8.5",
+  "current_estimated_band": "7.5 (L: 9.0, R: 8.0, W: 8.0, S: 5.5)",
   "recent_writing_task1_result": {
     "test_id": "cambridge-20-writing-4-task1",
     "test_title": "Cambridge IELTS 20 Academic Writing Test 4 Task 1",
@@ -99,5 +99,20 @@
     "grammar_mistakes": 0,
     "topic": "Bamboo Fabric Manufacturing Process Diagram",
     "gap_analysis": "\ud83c\udfc6 Outstanding Band 8.5! 0 grammar mistakes, Coherence & Cohesion 9.0, Grammatical Range 9.0. Complete mastery of sequential passive voice."
+  },
+  "recent_speaking_result": {
+    "test_id": "cambridge-21-speaking-1",
+    "test_title": "Cambridge IELTS 21 Academic Speaking Test 1",
+    "date": "2026-11-08",
+    "score": 5.5,
+    "pronunciation": 6.0,
+    "task_response": 6.0,
+    "fluency_coherence": 5.0,
+    "lexical_resource": 5.0,
+    "grammatical_range_accuracy": 5.0,
+    "time_spent": "00:24:24",
+    "target_score": 7.5,
+    "topic": "Haircuts, Tourist Information & Visitor Disappointment",
+    "gap_analysis": "\ud83c\udfaf Speaking Diagnostic Baseline (Band 5.5). Solid pronunciation foundation (6.0) and task understanding (6.0), with high-leverage growth potential in Fluency (5.0), Lexical Resource (5.0), and Grammar (5.0). Priority: Part 3 abstract structuring, eliminating double auxiliaries, and acquiring C1 tourism collocations."
   }
 }

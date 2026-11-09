@@ -38,15 +38,15 @@
     }
   ],
   "latest_diagnostic_result": {
-    "test_id": "cambridge-18-listening-4",
-    "test_title": "Cambridge IELTS 18 Academic Listening Test 4",
-    "date": "2026-11-05",
-    "score": 8.5,
-    "correct_count": 38,
+    "test_id": "cambridge-18-listening-3",
+    "test_title": "Cambridge IELTS 18 Academic Listening Test 3",
+    "date": "2026-11-09",
+    "score": 9.0,
+    "correct_count": 39,
     "total_count": 40,
-    "time_spent": "00:41:35",
+    "time_spent": "00:37:14",
     "target_score": 8.5,
-    "gap_analysis": "\ud83c\udfc6 Band 8.5 (38/40 correct, 95% accuracy)! Flawless 10/10 in Part 1, Part 2, and Part 4; solid 8/10 in Part 3 educational seminar."
+    "gap_analysis": "\ud83c\udfc6 Outstanding Band 9.0 (39/40 correct, 97.5% accuracy)! 100% on Part 2 mushrooms (10/10), Part 3 Luddites (10/10), and Part 4 space debris (10/10). Sole error was an uncountable noun pluralization on Q9 (movement). Triple-verified C2 Listening proficiency established!"
   },
   "recent_writing_result": {
     "test_id": "cambridge-20-writing-4",

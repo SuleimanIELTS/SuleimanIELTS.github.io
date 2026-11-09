@@ -173,6 +173,10 @@ function renderDashboard() {
   const latestWriting = appData.studyPlan.recent_writing_task1_result;
   const latestSpeaking = appData.studyPlan.recent_speaking_result;
 
+  const allRecent = [latestResult, latestWriting, latestSpeaking].filter(Boolean);
+  allRecent.sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+  const mostRecentTest = allRecent[0];
+
   statsContainer.innerHTML = `
     <div class="card">
       <div class="card-header">
@@ -192,7 +196,7 @@ function renderDashboard() {
         <span class="status-badge status-in-progress">${completed} tamamlanıb</span>
       </div>
       <p style="font-size: 0.85rem; color: var(--text-secondary);">
-        Son işlənən: <strong>${latestSpeaking ? latestSpeaking.test_title : (latestResult ? latestResult.test_title : 'Cambridge 21 Speaking Test 1')}</strong>
+        Son işlənən: <strong>${mostRecentTest ? mostRecentTest.test_title : 'Cambridge 18 Listening Test 3'}</strong>
       </p>
     </div>
     <div class="card">

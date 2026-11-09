@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08",
+  "last_updated": "2026-11-10",
   "total_books": 7,
   "series": "Cambridge IELTS Academic Series (15 - 21)",
   "platform_companion": "Engnovate",
@@ -543,6 +543,52 @@
           "diagnostic_question": "What can make a tourist attraction disappointing for visitors?",
           "candidate_response_transcript": "Okay, if any tourist go to the restaurant or any attraction tourist places, is food is bad or expired food, this is caused this appointing for visitors from tourist attraction. And I think also attraction, this appointing for tourists can be, for example, price is booming for this tourist because she or he is tourist. She or he don't know about price, truly price, this is very bad for Azerbaijan for example.",
           "key_takeaways": "Pronunciation 6.0, Task Response 6.0, Fluency 5.0, Lexical 5.0, Grammar 5.0. Needs Part 3 abstract structuring and C1 tourism collocations (predatory pricing, tourist traps, substandard services)."
+        }
+      }
+    },
+    {
+      "id": "cambridge-18-listening-3",
+      "book": "Cambridge 18",
+      "module": "Listening",
+      "test_number": 3,
+      "title": "Cambridge IELTS 18 Academic Listening Test 3",
+      "engnovate_url": "https://engnovate.com/ielts-listening-tests/cambridge-ielts-18-academic-listening-test-3/",
+      "difficulty": "Academic Standard",
+      "status": "Completed (Band 9.0)",
+      "attempt_date": "2026-11-09",
+      "time_spent": "00:37:14",
+      "score": 9.0,
+      "correct_answers": 39,
+      "total_questions": 40,
+      "target_score": 8.5,
+      "parts": {
+        "part_1": {
+          "topic": "Wayside Camera Club Membership & Competitions (Dan Green)",
+          "score_part": "9 / 10",
+          "accuracy": "90%",
+          "mistakes": [
+            {
+              "q": 9,
+              "user": "movements",
+              "correct": "movement / animal movement",
+              "note": "Uncountable noun inflection in art criticism."
+            }
+          ]
+        },
+        "part_2": {
+          "topic": "Wild Mushroom Foraging Safety & Conservation (Dan)",
+          "score_part": "10 / 10",
+          "accuracy": "100%"
+        },
+        "part_3": {
+          "topic": "Luddite History, Technology & Employment Shifts (University Seminar)",
+          "score_part": "10 / 10",
+          "accuracy": "100%"
+        },
+        "part_4": {
+          "topic": "Space Debris & Satellite Constellation Tracking (Aerospace Lecture)",
+          "score_part": "10 / 10",
+          "accuracy": "100%"
         }
       }
     }

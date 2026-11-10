@@ -172,8 +172,9 @@ function renderDashboard() {
   const latestResult = appData.studyPlan.latest_diagnostic_result;
   const latestWriting = appData.studyPlan.recent_writing_task1_result;
   const latestSpeaking = appData.studyPlan.recent_speaking_result;
+  const latestReading = appData.studyPlan.recent_reading_result;
 
-  const allRecent = [latestResult, latestWriting, latestSpeaking].filter(Boolean);
+  const allRecent = [latestResult, latestWriting, latestSpeaking, latestReading].filter(Boolean);
   allRecent.sort((a, b) => (b.date || "").localeCompare(a.date || ""));
   const mostRecentTest = allRecent[0];
 
@@ -256,6 +257,23 @@ function renderDashboard() {
       </p>
       <div style="font-size: 0.8rem; color: var(--text-secondary); background: var(--bg-surface); padding: 0.6rem 0.85rem; border-radius: var(--radius-sm); border: 1px solid var(--border-light);">
         <strong>💡 Diaqnostik Təhlil:</strong> ${latestWriting.gap_analysis}
+      </div>
+    </div>
+    ` : ''}
+    ${latestReading ? `
+    <div class="card" style="grid-column: 1 / -1; border-left: 4px solid #3b82f6; background: linear-gradient(135deg, var(--bg-surface), var(--bg-subtle));">
+      <div class="card-header">
+        <span class="card-title">📖 Son Reading İmtahan Nəticəsi (Desktop-dan Köçürüldü)</span>
+        <span class="target-badge" style="background: rgba(59, 130, 246, 0.15); color: #3b82f6; border-color: rgba(59, 130, 246, 0.3);">Nəticə: Band ${latestReading.score}</span>
+      </div>
+      <p style="font-size: 0.95rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.25rem;">
+        ${latestReading.test_title}
+      </p>
+      <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.6rem;">
+        Doğru cavablar: <strong>${latestReading.correct_count} / ${latestReading.total_count}</strong> (${((latestReading.correct_count / latestReading.total_count) * 100).toFixed(1)}%) • Tarix: <strong>${latestReading.date}</strong>
+      </p>
+      <div style="font-size: 0.8rem; color: var(--text-secondary); background: var(--bg-surface); padding: 0.6rem 0.85rem; border-radius: var(--radius-sm); border: 1px solid var(--border-light);">
+        <strong>💡 Diaqnostik Təhlil & Band 8.0+ Yol Xəritəsi:</strong> ${latestReading.gap_analysis}
       </div>
     </div>
     ` : ''}

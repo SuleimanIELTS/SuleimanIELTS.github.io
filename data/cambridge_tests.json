@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-10",
+  "last_updated": "2026-11-11",
   "total_books": 7,
   "series": "Cambridge IELTS Academic Series (15 - 21)",
   "platform_companion": "Engnovate",
@@ -591,6 +591,24 @@
           "accuracy": "100%"
         }
       }
+    },
+    {
+      "id": "cambridge-18-reading-4",
+      "book": "Cambridge 18",
+      "module": "Reading",
+      "test_number": 4,
+      "title": "Cambridge IELTS 18 Academic Reading Test 4",
+      "engnovate_url": "https://engnovate.com/ielts-reading-tests/cambridge-ielts-18-academic-reading-test-4/",
+      "difficulty": "Academic Standard",
+      "status": "Completed (Band 7.5)",
+      "attempt_date": "2026-11-10",
+      "score": "34/40",
+      "band": 7.5,
+      "passages": [
+        "Passage 1: Green roofs (11/13)",
+        "Passage 2: The growth mindset (13/13 \u2014 100% Flawless)",
+        "Passage 3: Alfred Wegener: science, exploration and continental drift (10/14)"
+      ]
     }
   ]
 }

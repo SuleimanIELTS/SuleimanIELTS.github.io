@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11",
+  "last_updated": "2026-11-14",
   "total_books": 7,
   "series": "Cambridge IELTS Academic Series (15 - 21)",
   "platform_companion": "Engnovate",
@@ -609,6 +609,59 @@
         "Passage 2: The growth mindset (13/13 \u2014 100% Flawless)",
         "Passage 3: Alfred Wegener: science, exploration and continental drift (10/14)"
       ]
+    },
+    {
+      "id": "cambridge-18-listening-2",
+      "book": "Cambridge 18",
+      "module": "Listening",
+      "test_number": 2,
+      "title": "Cambridge IELTS 18 Academic Listening Test 2",
+      "engnovate_url": "https://engnovate.com/ielts-listening-tests/cambridge-ielts-18-academic-listening-test-2/",
+      "difficulty": "Academic Standard",
+      "status": "Completed (Band 8.5)",
+      "attempt_date": "2026-11-12",
+      "time_spent": "00:38:59",
+      "score": 8.5,
+      "correct_answers": 38,
+      "total_questions": 40,
+      "target_score": 8.5,
+      "parts": {
+        "part_1": {
+          "topic": "Working at Milo's Restaurants (Job specifications)",
+          "score_part": "10 / 10",
+          "accuracy": "100%"
+        },
+        "part_2": {
+          "topic": "Planned Housing Scheme & Community Map Labeling",
+          "score_part": "10 / 10",
+          "accuracy": "100%",
+          "map_score": "6 / 6 (Flawless)"
+        },
+        "part_3": {
+          "topic": "The Laki Volcanic Eruption of 1783 (Iceland)",
+          "score_part": "10 / 10",
+          "accuracy": "100%"
+        },
+        "part_4": {
+          "topic": "Early History & Global Economics of Salt",
+          "score_part": "8 / 10",
+          "accuracy": "80%",
+          "mistakes": [
+            {
+              "q": 37,
+              "user": "wast",
+              "correct": "waist / waists",
+              "note": "Homophone trap: waist vs waste."
+            },
+            {
+              "q": 38,
+              "user": "parfume",
+              "correct": "perfume",
+              "note": "Loanword vowel orthography slip (parf\u00fcm vs perfume)."
+            }
+          ]
+        }
+      }
     }
   ]
 }

@@ -34,27 +34,27 @@ noscript_content = f"""
       <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">Bu bölmə axtarış sistemlərinin (Google, Bing, Yandex) və JavaScript dəstəkləməyən brauzerlərin bütün platforma resurslarını tam indeksləməsi üçün nəzərdə tutulmuşdur.</p>
 
       <div style="margin-bottom: 1.5rem;">
-        <h3 style="font-size: 1.2rem; color: #2563eb;">📚 Cambridge IELTS Academic Sınaq Testləri (15–21)</h3>
+        <h3 style="font-size: 1.2rem; color: #2563eb;">Cambridge IELTS Academic Sınaq Testləri (15–21)</h3>
         <ul style="padding-left: 1.25rem; line-height: 1.8;">
           {tests_li}
         </ul>
       </div>
 
       <div style="margin-bottom: 1.5rem;">
-        <h3 style="font-size: 1.2rem; color: #10b981;">💎 C1/C2 Lexical Vault — Əsas Kollokasiyalar və İdiomlar</h3>
+        <h3 style="font-size: 1.2rem; color: #10b981;">C1/C2 Lexical Vault — Əsas Kollokasiyalar və İdiomlar</h3>
         {vocab_blocks}
       </div>
 
       <div style="margin-bottom: 1.5rem;">
-        <h3 style="font-size: 1.2rem; color: #8b5cf6;">📖 500 İngilis Sözü 25 Hekayədə (Bilingual Reader)</h3>
+        <h3 style="font-size: 1.2rem; color: #8b5cf6;">500 İngilis Sözü 25 Hekayədə (Bilingual Reader)</h3>
         <ol style="padding-left: 1.25rem; line-height: 1.8;">
           {stories_li}
         </ol>
       </div>
 
       <div>
-        <h3 style="font-size: 1.2rem; color: #ef4444;">🔒 Məxfi Mərkəzi Anbar Girişi (Private Access)</h3>
-        <p>Bütün xam sənədlər, fərdi esselər və 62 səhifəlik Obsidian LLM Wiki bilik bazasına giriş əldə etmək üçün elektron poçt ünvanına müraciət edin: <a href="mailto:suleyman.hacizade1@gmail.com?subject=Access%20Request%20-%20SuleimanIELTS%20Private%20Data">suleyman.hacizade1@gmail.com</a></p>
+        <h3 style="font-size: 1.2rem; color: #ef4444;">Məxfi Mərkəzi Anbar Girişi (Private Access)</h3>
+        <p>Bütün xam sənədlər, fərdi esselər və 62 səhifəlik Obsidian bilik bazasına giriş əldə etmək üçün elektron poçt ünvanına müraciət edin: <a href="mailto:suleyman.hacizade1@gmail.com?subject=Access%20Request%20-%20SuleimanIELTS%20Private%20Data">suleyman.hacizade1@gmail.com</a></p>
       </div>
     </section>
   </noscript>

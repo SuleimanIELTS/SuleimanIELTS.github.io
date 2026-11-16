@@ -56,18 +56,18 @@ def get_header_html(active_route=""):
         </a>
 
         <div class="header-actions">
-          <span class="target-badge">🎯 Band 8.0+ Target</span>
+          <span class="target-badge">Band 8.0+ Target</span>
 
           <a href="mailto:suleyman.hacizade1@gmail.com?subject=Access%20Request%20-%20SuleimanIELTS%20Private%20Data" class="action-btn" title="Məxfi Baza Giriş Müraciəti (Private Data Access Request)" style="text-decoration: none; display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.82rem; font-weight: 600; background: rgba(220, 38, 38, 0.1); border: 1px solid rgba(220, 38, 38, 0.35); color: #ef4444;">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
               <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
             </svg>
-            <span>🔒 Access Request</span>
+            <span>Access Request</span>
           </a>
 
           <a href="/" class="action-btn" title="Ana Portal &amp; Tam İnteraktiv Rejim" style="text-decoration: none;">
-            <span>🚀 Full App</span>
+            <span>Full App</span>
           </a>
         </div>
       </div>
@@ -95,18 +95,18 @@ def get_footer_html():
           </p>
         </div>
         <div style="display: flex; flex-direction: column; gap: 0.5rem; text-align: right;">
-          <a href="/speaking/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.88rem;">🎙️ Speaking Practice Suite</a>
-          <a href="/tests/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.88rem;">📚 Cambridge Tests Directory</a>
-          <a href="/vault/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.88rem;">💎 C1/C2 Lexical Vault</a>
-          <a href="/writing/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.88rem;">✍️ Writing Blueprints</a>
-          <a href="/stories/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.88rem;">📖 500 Söz (25 Hekayə)</a>
-          <a href="/about/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.88rem;">ℹ️ Haqqımızda &amp; Access</a>
+          <a href="/speaking/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.88rem;">Speaking Practice Suite</a>
+          <a href="/tests/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.88rem;">Cambridge Tests Directory</a>
+          <a href="/vault/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.88rem;">C1/C2 Lexical Vault</a>
+          <a href="/writing/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.88rem;">Writing Blueprints</a>
+          <a href="/stories/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.88rem;">500 Söz (25 Hekayə)</a>
+          <a href="/about/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.88rem;">Haqqımızda &amp; Access</a>
         </div>
       </div>
 
       <div style="border-top: 1px solid var(--border-light); padding-top: 1.25rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; font-size: 0.82rem; color: var(--text-muted);">
         <div>
-          🔒 <strong>Məxfi Məlumat Bazası (Private Data):</strong> Bütün xam sənədlər və 62-səhifəlik Obsidian LLM Wiki bazası məxfidir. Giriş üçün: <a href="mailto:suleyman.hacizade1@gmail.com?subject=Access%20Request%20-%20SuleimanIELTS%20Private%20Data" style="color: #ef4444; font-weight: 600;">suleyman.hacizade1@gmail.com</a>
+          <strong>Məxfi Məlumat Bazası (Private Data):</strong> Bütün xam sənədlər və 62-səhifəlik Obsidian bilik bazası məxfidir. Giriş üçün: <a href="mailto:suleyman.hacizade1@gmail.com?subject=Access%20Request%20-%20SuleimanIELTS%20Private%20Data" style="color: #ef4444; font-weight: 600;">suleyman.hacizade1@gmail.com</a>
         </div>
         <div>
           <span>Qurucu: <strong>Süleyman Hacızadə (Suleiman Hajizadeh)</strong></span> • 
@@ -249,7 +249,7 @@ def generate_speaking_page():
         Cambridge 15–21 imtahan sualları, 1 dəqiqəlik hazırlıq və 2 dəqiqəlik danışıq taymerləri, brauzerdaxili səs yazıcı (audio recorder) və Band 8.5+ model cavablar ilə real imtahan təcrübəsi toplayın.
       </p>
       <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
-        <a href="/#view-speaking" class="btn-primary" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">🎙️ İnteraktiv Taymer &amp; Recorder ilə İşlə</a>
+        <a href="/#view-speaking" class="btn-primary" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">İnteraktiv Taymer &amp; Recorder ilə İşlə</a>
         <a href="https://engnovate.com/ielts-speaking-tests/cambridge-ielts-21-academic-speaking-test-3/" target="_blank" rel="noopener noreferrer" class="action-btn" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">Engnovate-də Aç ↗</a>
       </div>
     </div>
@@ -420,7 +420,7 @@ def generate_tests_page():
         Cambridge University Press tərəfindən nəşr olunmuş ən son rəsmi IELTS Academic imtahan testləri (Cambridge 15, 16, 17, 18, 19, 20 və 21). Listening, Reading, Writing və Speaking modulları üzrə birbaşa keçidlər.
       </p>
       <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
-        <a href="/#view-tests" class="btn-primary" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">📚 Bütün Testləri İnteraktiv Filtirlə</a>
+        <a href="/#view-tests" class="btn-primary" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">Bütün Testləri İnteraktiv Filtirlə</a>
         <a href="https://engnovate.com" target="_blank" rel="noopener noreferrer" class="action-btn" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">Engnovate Ana Səhifə ↗</a>
       </div>
     </div>
@@ -547,8 +547,8 @@ def generate_vault_page():
         İmtahanlarda yüksək bal (Band 8.0, 8.5 və 9.0) qazanmaq üçün vacib C1 və C2 səviyyəli kollokasiyalar, idiomatik birləşmələr, mövzu lüğəti və onların Azərbaycan dilində dəqiq mənaları.
       </p>
       <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
-        <a href="/#view-vault" class="btn-primary" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">🔍 İnteraktiv Canlı Axtarış Rejimi</a>
-        <a href="/stories/" class="action-btn" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">📖 500 Söz 25 Hekayədə</a>
+        <a href="/#view-vault" class="btn-primary" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">İnteraktiv Canlı Axtarış Rejimi</a>
+        <a href="/stories/" class="action-btn" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">500 Söz 25 Hekayədə</a>
       </div>
     </div>
 
@@ -657,8 +657,8 @@ def generate_writing_page():
         Task 1 və Task 2 üçün xüsusi hazırlanmış Band 8.5 şablonları, paraqraf strukturları (PEEL metodu), bağlayıcı ifadələr və yüksək ballı akademik cümlə qəlibləri.
       </p>
       <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
-        <a href="/#view-writing" class="btn-primary" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">✍️ İnteraktiv Şablonları Göstər</a>
-        <a href="/vault/" class="action-btn" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">💎 C1/C2 Lüğət Bazasını Aç</a>
+        <a href="/#view-writing" class="btn-primary" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">İnteraktiv Şablonları Göstər</a>
+        <a href="/vault/" class="action-btn" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">C1/C2 Lüğət Bazasını Aç</a>
       </div>
     </div>
 
@@ -766,11 +766,11 @@ def generate_stories_page():
 
         <div class="grid-2" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem; margin-bottom: 1.5rem;">
           <div style="background: var(--bg-subtle); padding: 1.25rem; border-radius: 8px; border-left: 3px solid #2563eb;">
-            <div style="font-size: 0.8rem; font-weight: 700; color: #2563eb; text-transform: uppercase; margin-bottom: 0.5rem;">🇬🇧 English Text</div>
+            <div style="font-size: 0.8rem; font-weight: 700; color: #2563eb; text-transform: uppercase; margin-bottom: 0.5rem;">English Text</div>
             <div style="line-height: 1.7; font-size: 0.95rem; color: var(--text-primary);">{html.escape(first_story.get("text_en", ""))[:650]}...</div>
           </div>
           <div style="background: var(--bg-subtle); padding: 1.25rem; border-radius: 8px; border-left: 3px solid #10b981;">
-            <div style="font-size: 0.8rem; font-weight: 700; color: #10b981; text-transform: uppercase; margin-bottom: 0.5rem;">🇦🇿 Azərbaycan Dilində Tərcümə</div>
+            <div style="font-size: 0.8rem; font-weight: 700; color: #10b981; text-transform: uppercase; margin-bottom: 0.5rem;">Azərbaycan Dilində Tərcümə</div>
             <div style="line-height: 1.7; font-size: 0.95rem; color: var(--text-secondary);">{html.escape(first_story.get("text_az", ""))[:650]}...</div>
           </div>
         </div>
@@ -805,8 +805,8 @@ def generate_stories_page():
         Hər hekayədə 20 hədəf söz olmaqla cəmi 500 ən vacib ingilis sözünü kontekstdə öyrənin. Paralel Azərbaycan dilində tərcümə və "Mənaları Gizlət" test rejimi ilə biliyinizi yoxlayın.
       </p>
       <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
-        <a href="/#view-stories" class="btn-primary" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">📖 İnteraktiv Oxucu &amp; Test Rejimini Aç</a>
-        <a href="/vault/" class="action-btn" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">💎 C1/C2 Vault-a Keç</a>
+        <a href="/#view-stories" class="btn-primary" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">İnteraktiv Oxucu &amp; Test Rejimini Aç</a>
+        <a href="/vault/" class="action-btn" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">C1/C2 Vault-a Keç</a>
       </div>
     </div>
 
@@ -908,15 +908,15 @@ def generate_dashboard_page():
         Qarışıqlıq olmadan, təmiz və fokuslanmış mühitdə Cambridge 15–21 Academic testlərini işləyin, model cavabları və C1/C2 lüğət bazasını paralel mənimsəyin.
       </p>
       <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
-        <a href="/#view-dashboard" class="btn-primary" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">🚀 İnteraktiv İdarəetmə Paneli</a>
-        <a href="mailto:suleyman.hacizade1@gmail.com?subject=Access%20Request%20-%20SuleimanIELTS%20Private%20Data" class="action-btn" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">🔒 Məxfi Bazaya Giriş İstə</a>
+        <a href="/#view-dashboard" class="btn-primary" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">İnteraktiv İdarəetmə Paneli</a>
+        <a href="mailto:suleyman.hacizade1@gmail.com?subject=Access%20Request%20-%20SuleimanIELTS%20Private%20Data" class="action-btn" style="padding: 0.65rem 1.25rem; text-decoration: none; border-radius: 8px;">Məxfi Bazaya Giriş İstə</a>
       </div>
     </div>
 
     <div class="grid-2" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; margin-bottom: 2.5rem;">
       <div class="card" style="padding: 1.5rem; background: var(--bg-surface); border: 1px solid var(--border-medium); border-radius: 12px;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
-          <h2 style="font-size: 1.2rem; font-weight: 700; margin: 0;">📅 Gündəlik Hazırlıq Planı</h2>
+          <h2 style="font-size: 1.2rem; font-weight: 700; margin: 0;">Gündəlik Hazırlıq Planı</h2>
           <span style="font-size: 0.78rem; font-weight: 700; background: rgba(16, 185, 129, 0.1); color: #10b981; padding: 0.2rem 0.5rem; border-radius: 4px;">Fokus Rejimi</span>
         </div>
         <ul style="list-style: none; padding: 0; margin: 0;">
@@ -926,7 +926,7 @@ def generate_dashboard_page():
 
       <div class="card" style="padding: 1.5rem; background: var(--bg-surface); border: 1px solid var(--border-medium); border-radius: 12px;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
-          <h2 style="font-size: 1.2rem; font-weight: 700; margin: 0;">💡 Engnovate-də Rahat İşləmək Qaydası</h2>
+          <h2 style="font-size: 1.2rem; font-weight: 700; margin: 0;">Engnovate-də Rahat İşləmək Qaydası</h2>
           <span style="font-size: 0.78rem; font-weight: 700; background: rgba(37, 99, 235, 0.1); color: #2563eb; padding: 0.2rem 0.5rem; border-radius: 4px;">Tövsiyə</span>
         </div>
         <ul style="padding-left: 1.25rem; font-size: 0.9rem; color: var(--text-secondary); display: flex; flex-direction: column; gap: 0.75rem; margin: 0;">
@@ -1004,22 +1004,22 @@ def generate_about_page():
     <!-- Private Data Notice & Protocol -->
     <section class="card" style="padding: 2rem; background: var(--bg-surface); border: 1px solid var(--border-medium); border-radius: 14px; margin-bottom: 2rem;">
       <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
-        <span style="font-size: 1.75rem;">🔒</span>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2" style="vertical-align: middle;"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
         <h2 style="font-size: 1.35rem; font-weight: 800; margin: 0; color: #ef4444;">Məxfi Məlumat Bazası və Giriş İcazəsi (Private Data Access Protocol)</h2>
       </div>
       <p style="line-height: 1.7; color: var(--text-primary); margin-bottom: 1rem;">
-        Suleiman IELTS təşkilatının əsas tədqiqat və sənəd bazası (<strong>SuleimanIELTS</strong> mərkəzi anbarı) <strong>tamamilə məxfidir (Private)</strong>. Bu bazaya 400-dən artıq xam IELTS materialı, fərdi sınaq imtahanı nəticələri, Cambridge 15–21 rəsmi PDF/audio materialları və 62 səhifəlik xüsusi Obsidian LLM Wiki bilik anbarı daxildir.
+        Suleiman IELTS təşkilatının əsas tədqiqat və sənəd bazası (<strong>SuleimanIELTS</strong> mərkəzi anbarı) <strong>tamamilə məxfidir (Private)</strong>. Bu bazaya 400-dən artıq xam IELTS materialı, fərdi sınaq imtahanı nəticələri, Cambridge 15–21 rəsmi PDF/audio materialları və 62 səhifəlik xüsusi Obsidian bilik anbarı daxildir.
       </p>
       <div style="background: var(--bg-subtle); padding: 1.25rem; border-radius: 10px; border-left: 4px solid #ef4444; margin-bottom: 1.5rem;">
         <strong style="color: var(--text-primary); display: block; margin-bottom: 0.5rem;">Məxfi Bazaya Giriş (Access) Qaydası:</strong>
         <p style="margin: 0; font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">
-          Akademik araşdırma, tədris və ya elmi əməkdaşlıq məqsədilə xam bazaya və ya Obsidian LLM Wiki sisteminə giriş icazəsi almaq istəyən şəxslər elektron poçt ünvanına rəsmi müraciət göndərə bilərlər. Müraciətiniz nəzərdən keçirildikdən sonra fərdi icazə tokeni və ya repozitoriya girişi təqdim olunur.
+          Akademik araşdırma, tədris və ya elmi əməkdaşlıq məqsədilə xam bazaya və ya Obsidian bilik sisteminə giriş icazəsi almaq istəyən şəxslər elektron poçt ünvanına rəsmi müraciət göndərə bilərlər. Müraciətiniz nəzərdən keçirildikdən sonra fərdi icazə tokeni və ya repozitoriya girişi təqdim olunur.
         </p>
       </div>
 
       <div style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
         <a href="mailto:suleyman.hacizade1@gmail.com?subject=Access%20Request%20-%20SuleimanIELTS%20Private%20Data" class="btn-primary" style="padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 8px; font-weight: 700; background: #dc2626; color: #fff;">
-          ✉️ suleyman.hacizade1@gmail.com Ünvanına Müraciət Göndər
+          suleyman.hacizade1@gmail.com Ünvanına Müraciət Göndər
         </a>
       </div>
     </section>
@@ -1051,7 +1051,7 @@ def generate_about_page():
                 "@id": "https://suleimanielts.github.io/about/#page",
                 "name": "About Suleiman IELTS & Private Data Access Protocol",
                 "url": "https://suleimanielts.github.io/about/",
-                "description": "Information about Suleiman IELTS, founder Suleiman Hajizadeh, academic mission, and official protocol for requesting access to the private repository and LLM Wiki vault.",
+                "description": "Information about Suleiman IELTS, founder Suleiman Hajizadeh, academic mission, and official protocol for requesting access to the private repository and knowledge vault.",
                 "mainEntity": {
                     "@type": "EducationalOrganization",
                     "name": "Suleiman IELTS",

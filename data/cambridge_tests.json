@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-17",
+  "last_updated": "2026-11-19",
   "total_books": 7,
   "series": "Cambridge IELTS Academic Series (15 - 21)",
   "platform_companion": "Engnovate",
@@ -711,6 +711,26 @@
       },
       "overall_band": 7.5,
       "notes": "Task 1 was a non-attempt (placeholder text). Task 2 (Band 7.5) is the valid writing performance for this sitting: GRA: 9.0 (zero grammar errors), CC: 8.0 (clear structure), LR: 7.0 (repetition of core terms: planes, travel, strongly believe). TR: 6.0 — position stated but argumentation needs deeper development and integration of environmental counter-evidence."
+    },
+    {
+      "id": "cambridge-18-reading-3",
+      "book": "Cambridge 18",
+      "module": "Reading",
+      "test_number": 3,
+      "title": "Cambridge IELTS 18 Academic Reading Test 3",
+      "engnovate_url": "https://engnovate.com/ielts-reading-tests/cambridge-ielts-18-academic-reading-test-3/",
+      "difficulty": "Academic Standard",
+      "status": "Completed (Band 7.5)",
+      "attempt_date": "2026-11-17",
+      "time_spent": "01:00:02",
+      "score": "34/40",
+      "band": 7.5,
+      "passages": [
+        "Passage 1: Materials to take us beyond concrete (13/13 — 100% Flawless)",
+        "Passage 2: The steam car (13/13 — 100% Flawless)",
+        "Passage 3: Streaming in education & mixed-ability classrooms (8/14)"
+      ],
+      "notes": "Dual 100% flawless execution on Passages 1 & 2 (26/26). Errors in Passage 3 focused on Q29 inference and Q36-40 Yes/No/Not Given educational theory claims."
     }
   ]
 }

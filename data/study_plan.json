@@ -62,29 +62,29 @@
     "topic": "Aviation Reduction & Environmental Benefits"
   },
   "recent_reading_result": {
-    "test_id": "cambridge-18-reading-4",
-    "test_title": "Cambridge IELTS 18 Academic Reading Test 4",
-    "date": "2026-11-10",
+    "test_id": "cambridge-18-reading-3",
+    "test_title": "Cambridge IELTS 18 Academic Reading Test 3",
+    "date": "2026-11-17",
     "score": 7.5,
     "correct_count": 34,
     "total_count": 40,
-    "time_spent": "00:58:30",
+    "time_spent": "01:00:02",
     "target_score": 8.5,
     "passages": [
       {
-        "name": "Passage 1: Green roofs",
-        "score": "11/13"
-      },
-      {
-        "name": "Passage 2: The growth mindset (Carol Dweck)",
+        "name": "Passage 1: Materials to take us beyond concrete",
         "score": "13/13 (100% Perfect)"
       },
       {
-        "name": "Passage 3: Alfred Wegener: science, exploration and continental drift",
-        "score": "10/14"
+        "name": "Passage 2: The steam car (Doble brothers)",
+        "score": "13/13 (100% Perfect)"
+      },
+      {
+        "name": "Passage 3: Streaming in education & mixed-ability classrooms",
+        "score": "8/14"
       }
     ],
-    "gap_analysis": "Band 7.5 (34/40 correct, 85.0% accuracy)! Flawless 13/13 (100%) on Passage 2 cognitive psychology. Dual-verified reading benchmark establishes solid C1 academic reading stability (aggregate 69/80, 86.3%). Priority: Fine-tune biographer meta-commentary vs historical fact distinctions in Passage 3 multiple choice."
+    "gap_analysis": "Band 7.5 (34/40 correct, 85.0% accuracy)! 100% flawless execution on Passages 1 and 2 (26/26). Triple-verified reading benchmark establishes solid C1 academic reading stability (aggregate 103/120, 85.8%). Priority: Fine-tune Passage 3 Yes/No/Not Given philosophical claim parsing and educational theory inferences."
   },
   "current_estimated_band": "7.5 (L: 9.0, R: 8.0, W: 8.0, S: 5.5)",
   "recent_writing_task1_result": {

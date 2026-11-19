@@ -731,6 +731,52 @@
         "Passage 3: Streaming in education & mixed-ability classrooms (8/14)"
       ],
       "notes": "Dual 100% flawless execution on Passages 1 & 2 (26/26). Errors in Passage 3 focused on Q29 inference and Q36-40 Yes/No/Not Given educational theory claims."
+    },
+    {
+      "id": "cambridge-18-listening-1",
+      "book": "Cambridge 18",
+      "module": "Listening",
+      "test_number": 1,
+      "title": "Cambridge IELTS 18 Academic Listening Test 1",
+      "engnovate_url": "https://engnovate.com/ielts-listening-tests/cambridge-ielts-18-academic-listening-test-1/",
+      "difficulty": "Academic Standard",
+      "status": "Completed (Band 9.0)",
+      "attempt_date": "2026-11-19",
+      "time_spent": "00:46:28",
+      "score": 9.0,
+      "correct_answers": 39,
+      "total_questions": 40,
+      "target_score": 8.5,
+      "parts": {
+        "part_1": {
+          "topic": "Transport Survey & Cycling Commute",
+          "score_part": "10 / 10",
+          "accuracy": "100%"
+        },
+        "part_2": {
+          "topic": "Community Volunteer Organization Orientation",
+          "score_part": "10 / 10",
+          "accuracy": "100%"
+        },
+        "part_3": {
+          "topic": "Fashion Careers Talk & Retail Project Discussion (Hugo & Chantal)",
+          "score_part": "9 / 10",
+          "accuracy": "90%",
+          "mistakes": [
+            {
+              "q": 25,
+              "correct": "B",
+              "note": "Hugo and Chantal disagree on when to choose a career in fashion (open mind until course end vs immediate specialization)."
+            }
+          ]
+        },
+        "part_4": {
+          "topic": "Translocation of Elephants in Malawi Conservation Project",
+          "score_part": "10 / 10",
+          "accuracy": "100%"
+        }
+      },
+      "notes": "Quintuple-verified Band 9.0/8.5 Listening mastery (194/200, 97.0% aggregate). Flawless 10/10 on Parts 1, 2, and 4. Sole error on Part 3 Q25 (speaker disagreement on career timing)."
     }
   ]
 }

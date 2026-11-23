@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-19",
+  "last_updated": "2026-11-23",
   "total_books": 7,
   "series": "Cambridge IELTS Academic Series (15 - 21)",
   "platform_companion": "Engnovate",
@@ -777,6 +777,52 @@
         }
       },
       "notes": "Quintuple-verified Band 9.0/8.5 Listening mastery (194/200, 97.0% aggregate). Flawless 10/10 on Parts 1, 2, and 4. Sole error on Part 3 Q25 (speaker disagreement on career timing)."
+    },
+    {
+      "id": "cambridge-18-writing-4",
+      "book": "Cambridge 18",
+      "module": "Writing",
+      "test_number": 4,
+      "title": "Cambridge IELTS 18 Academic Writing Test 4",
+      "engnovate_url": "https://engnovate.com/ielts-writing-tests/cambridge-ielts-18-academic-writing-test-4/",
+      "difficulty": "Academic Standard",
+      "status": "Completed (Part 1: Band 8.0 | Part 2: Band 1.0 Draft)",
+      "attempt_date": "2026-11-22",
+      "time_spent": "00:17:48",
+      "task1": {
+        "prompt": "Average monthly percentage changes in the prices of three metals (nickel, copper, zinc) in 2014 — Line Graph",
+        "answer": "The graph illustrates the average monthly percentage changes in the prices of three metals in 2014. Overall, the price of nickel dropped dramatically from January to June and then started to grow steadily from July to December. As for the prices of copper and zinc, they fluctuated throughout the whole year. Firstly, the price of nickel dropped by 6% from January to March, then remained stable until May before dropping dramatically by another 5% in June. From June to October, it attempted to stabilise. In November, the value of nickel increased by 4% and remained at that level until the end of the year. As for copper, its value dropped steadily by approximately 3% from the beginning of the year until June. After that, it started to increase little by little and reached its original level by the end of the year, at 2%. Lastly, zinc started at 1% and increased by 2%, reaching 3% in February. Then, its value started to drop by 4% until June and remained stable until October. It then started to increase dramatically, reaching 2% by the end of the year.",
+        "score": 8.0,
+        "task_response": 7.0,
+        "coherence_cohesion": 8.0,
+        "lexical_resource": 8.0,
+        "grammatical_range_accuracy": 8.0,
+        "grammar_mistakes": 0,
+        "vocabulary_complexity": "B2 - Upper Intermediate",
+        "vocabulary_repetition": [
+          "started (5)",
+          "until (5)",
+          "nickel (3)",
+          "dropped (3)",
+          "dramatically (3)",
+          "remained (3)",
+          "value (3)"
+        ],
+        "notes": "Excellent Band 8.0 performance. Flawless grammar with zero mistakes (GRA 8.0). Clear overview and paragraph organization (CC 8.0). Good trend lexicon (LR 8.0). TR 7.0 covers all metals with accurate key features; can reach 8.5-9.0 with cross-metal synthesis rather than sequential narrative."
+      },
+      "task2": {
+        "prompt": "Some people believe that an ageing population creates problems for governments, while others think there are benefits. Discuss both views and give your opinion.",
+        "score": 1.0,
+        "task_response": 1.0,
+        "coherence_cohesion": 1.0,
+        "lexical_resource": 1.0,
+        "grammatical_range_accuracy": 1.0,
+        "grammar_mistakes": 0,
+        "vocabulary_complexity": "A1 - Beginner (non-attempt)",
+        "notes": "Submission was entirely non-semantic placeholder text (sgsg sg s gs gs pattern). Scores reflect absence of content rather than candidate writing proficiency. Excluded from Task 2 diagnostic benchmark."
+      },
+      "overall_band": 8.0,
+      "notes": "Task 1 (Band 8.0) is the valid writing performance benchmark for this sitting with zero grammar errors and rapid execution (17 min 48 sec). Task 2 was a placeholder draft and excluded from evaluative benchmarks."
     }
   ]
 }

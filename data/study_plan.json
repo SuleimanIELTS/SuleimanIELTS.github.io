@@ -88,17 +88,17 @@
   },
   "current_estimated_band": "7.5 (L: 9.0, R: 8.0, W: 8.0, S: 5.5)",
   "recent_writing_task1_result": {
-    "test_id": "cambridge-20-writing-4-task1",
-    "test_title": "Cambridge IELTS 20 Academic Writing Test 4 Task 1",
-    "date": "2026-11-06",
-    "score": 8.5,
-    "task_response": 8.0,
-    "coherence_cohesion": 9.0,
+    "test_id": "cambridge-18-writing-4-task1",
+    "test_title": "Cambridge IELTS 18 Academic Writing Test 4 Task 1",
+    "date": "2026-11-22",
+    "score": 8.0,
+    "task_response": 7.0,
+    "coherence_cohesion": 8.0,
     "lexical_resource": 8.0,
-    "grammatical_range_accuracy": 9.0,
+    "grammatical_range_accuracy": 8.0,
     "grammar_mistakes": 0,
-    "topic": "Bamboo Fabric Manufacturing Process Diagram",
-    "gap_analysis": "🏆 Outstanding Band 8.5! 0 grammar mistakes, Coherence & Cohesion 9.0, Grammatical Range 9.0. Complete mastery of sequential passive voice."
+    "topic": "Average Monthly Percentage Changes in Metal Prices (Line Graph)",
+    "gap_analysis": "Band 8.0 on dynamic line graph (nickel, copper, zinc). Zero grammar mistakes across 158 words. Coherence 8.0, Lexical Resource 8.0, GRA 8.0. Priority: Eliminate repetition of started (5x) and dropped dramatically (3x); synthesize cross-metal comparative trajectories rather than sequential isolated reporting."
   },
   "recent_speaking_result": {
     "test_id": "cambridge-21-speaking-1",
@@ -113,6 +113,6 @@
     "time_spent": "00:24:24",
     "target_score": 7.5,
     "topic": "Haircuts, Tourist Information & Visitor Disappointment",
-    "gap_analysis": "🎯 Speaking Diagnostic Baseline (Band 5.5). Solid pronunciation foundation (6.0) and task understanding (6.0), with high-leverage growth potential in Fluency (5.0), Lexical Resource (5.0), and Grammar (5.0). Priority: Part 3 abstract structuring, eliminating double auxiliaries, and acquiring C1 tourism collocations."
+    "gap_analysis": "Speaking Diagnostic Baseline (Band 5.5). Solid pronunciation foundation (6.0) and task understanding (6.0), with high-leverage growth potential in Fluency (5.0), Lexical Resource (5.0), and Grammar (5.0). Priority: Part 3 abstract structuring, eliminating double auxiliaries, and acquiring C1 tourism collocations."
   }
 }

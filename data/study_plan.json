@@ -38,15 +38,15 @@
     }
   ],
   "latest_diagnostic_result": {
-    "test_id": "cambridge-18-listening-1",
-    "test_title": "Cambridge IELTS 18 Academic Listening Test 1",
-    "date": "2026-11-19",
-    "score": 9.0,
-    "correct_count": 39,
+    "test_id": "cambridge-17-listening-4",
+    "test_title": "Cambridge IELTS 17 Academic Listening Test 4",
+    "date": "2026-11-23",
+    "score": 8.5,
+    "correct_count": 38,
     "total_count": 40,
-    "time_spent": "00:46:28",
+    "time_spent": "00:39:30",
     "target_score": 8.5,
-    "gap_analysis": "Elite Band 9.0 (39/40 correct, 97.5% accuracy)! 100% on Part 1 (10/10), Part 2 (10/10), and Part 4 (10/10). Quintuple-verified Listening dominance established (194/200 aggregate, 97.0%) across Cambridge 19 T1, 18 T4, 18 T3, 18 T2, and 18 T1!"
+    "gap_analysis": "Band 8.5 (38/40 correct, 95.0% accuracy) in 39m 30s. Flawless 10/10 on Part 1 and Part 3. Sextuple-verified Listening dominance established (232/240 aggregate, 96.7%) across Cambridge 19 T1, 18 T4-T1, and 17 T4. Minor polish: check singular/plural agreement after 'a/an' on gap-fills (Q40)."
   },
   "recent_writing_result": {
     "test_id": "cambridge-20-writing-3",
@@ -62,31 +62,31 @@
     "topic": "Aviation Reduction & Environmental Benefits"
   },
   "recent_reading_result": {
-    "test_id": "cambridge-18-reading-3",
-    "test_title": "Cambridge IELTS 18 Academic Reading Test 3",
-    "date": "2026-11-17",
-    "score": 7.5,
-    "correct_count": 34,
+    "test_id": "cambridge-18-reading-2",
+    "test_title": "Cambridge IELTS 18 Academic Reading Test 2",
+    "date": "2026-11-24",
+    "score": 8.5,
+    "correct_count": 38,
     "total_count": 40,
-    "time_spent": "01:00:02",
+    "time_spent": "01:10:20",
     "target_score": 8.5,
     "passages": [
       {
-        "name": "Passage 1: Materials to take us beyond concrete",
+        "name": "Passage 1: Stonehenge",
+        "score": "12/13 (92.3%)"
+      },
+      {
+        "name": "Passage 2: Living with artificial intelligence",
         "score": "13/13 (100% Perfect)"
       },
       {
-        "name": "Passage 2: The steam car (Doble brothers)",
-        "score": "13/13 (100% Perfect)"
-      },
-      {
-        "name": "Passage 3: Streaming in education & mixed-ability classrooms",
-        "score": "8/14"
+        "name": "Passage 3: An ideal city (Leonardo da Vinci)",
+        "score": "13/14 (92.9%)"
       }
     ],
-    "gap_analysis": "Band 7.5 (34/40 correct, 85.0% accuracy)! 100% flawless execution on Passages 1 and 2 (26/26). Triple-verified reading benchmark establishes solid C1 academic reading stability (aggregate 103/120, 85.8%). Priority: Fine-tune Passage 3 Yes/No/Not Given philosophical claim parsing and educational theory inferences."
+    "gap_analysis": "New Reading personal best: Band 8.5 (38/40 correct, 95.0% accuracy). Third consecutive 13/13 sweep on Passage 2 (including 4/4 Yes/No/Not Given) and major Passage 3 rebound to 13/14. Quadruple-verified Reading aggregate rises to 141/160 (88.1%). Next priority: maintain Band 8.5 precision while compressing pacing from 01:10:20 strictly under 01:00:00."
   },
-  "current_estimated_band": "7.5 (L: 9.0, R: 8.0, W: 8.0, S: 5.5)",
+  "current_estimated_band": "8.0 (L: 9.0, R: 8.5, W: 8.0, S: 5.5)",
   "recent_writing_task1_result": {
     "test_id": "cambridge-18-writing-4-task1",
     "test_title": "Cambridge IELTS 18 Academic Writing Test 4 Task 1",

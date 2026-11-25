@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-23",
+  "last_updated": "2026-11-25",
   "total_books": 7,
   "series": "Cambridge IELTS Academic Series (15 - 21)",
   "platform_companion": "Engnovate",
@@ -823,6 +823,80 @@
       },
       "overall_band": 8.0,
       "notes": "Task 1 (Band 8.0) is the valid writing performance benchmark for this sitting with zero grammar errors and rapid execution (17 min 48 sec). Task 2 was a placeholder draft and excluded from evaluative benchmarks."
+    },
+    {
+      "id": "cambridge-17-listening-4",
+      "book": "Cambridge 17",
+      "module": "Listening",
+      "test_number": 4,
+      "title": "Cambridge IELTS 17 Academic Listening Test 4",
+      "engnovate_url": "https://engnovate.com/ielts-listening-tests/cambridge-ielts-17-academic-listening-test-4/",
+      "difficulty": "Academic Standard",
+      "status": "Completed (Band 8.5)",
+      "attempt_date": "2026-11-23",
+      "time_spent": "00:39:30",
+      "score": 8.5,
+      "correct_answers": 38,
+      "total_questions": 40,
+      "target_score": 8.5,
+      "parts": {
+        "part_1": {
+          "topic": "Easy Life Cleaning Services",
+          "score_part": "10 / 10",
+          "accuracy": "100%"
+        },
+        "part_2": {
+          "topic": "Hotel Staff Turnover & Retention Strategies",
+          "score_part": "9 / 10",
+          "accuracy": "90%",
+          "mistakes": [
+            {
+              "q": 16,
+              "correct": "C",
+              "note": "The Portland introduced talent recognition with training for management potential (providing career opportunities)."
+            }
+          ]
+        },
+        "part_3": {
+          "topic": "Sports Science & Historical Sporting Equipment (Thomas & Jeanne)",
+          "score_part": "10 / 10",
+          "accuracy": "100%"
+        },
+        "part_4": {
+          "topic": "Maple Syrup Production Process & History",
+          "score_part": "9 / 10",
+          "accuracy": "90%",
+          "mistakes": [
+            {
+              "q": 40,
+              "student_answer": "liters",
+              "correct": "litre / liter",
+              "note": "Singular/plural concord slip after indefinite article 'a' caused by plural carryover from '40 litres'."
+            }
+          ]
+        }
+      },
+      "notes": "Sextuple-verified Band 8.5-9.0 Listening mastery (232/240, 96.7% aggregate). Flawless 10/10 on Parts 1 and 3. Two isolated errors: Part 2 Q16 (delayed career progression paraphrase) and Part 4 Q40 (singular/plural concord after 'a')."
+    },
+    {
+      "id": "cambridge-18-reading-2",
+      "book": "Cambridge 18",
+      "module": "Reading",
+      "test_number": 2,
+      "title": "Cambridge IELTS 18 Academic Reading Test 2",
+      "engnovate_url": "https://engnovate.com/ielts-reading-tests/cambridge-ielts-18-academic-reading-test-2/",
+      "difficulty": "Academic Standard",
+      "status": "Completed (Band 8.5 — Personal Best)",
+      "attempt_date": "2026-11-24",
+      "time_spent": "01:10:20",
+      "score": "38/40",
+      "band": 8.5,
+      "passages": [
+        "Passage 1: Stonehenge (12/13 — 92.3%)",
+        "Passage 2: Living with artificial intelligence (13/13 — 100% Flawless)",
+        "Passage 3: An ideal city — Leonardo da Vinci (13/14 — 92.9%)"
+      ],
+      "notes": "New Reading personal best (Band 8.5, 38/40, 95.0%). Third consecutive 13/13 sweep on Passage 2 including 4/4 Yes/No/Not Given, plus breakthrough 13/14 on Passage 3. Two isolated misses: Q3 (boulders vs tree trunks role swap) and Q30 (unfulfilled 1486 ideal city plan). Primary next focus: compress completion time from 01:10:20 strictly under 01:00:00."
     }
   ]
 }
